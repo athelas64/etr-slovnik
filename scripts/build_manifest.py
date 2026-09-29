@@ -56,6 +56,13 @@ def main() -> int:
             return 1
         print("manifest.json is current")
         return 0
+    # Keep the old timestamp when nothing else changed, so CI does not commit on every push.
+    if OUT.exists():
+        old = json.loads(OUT.read_text("utf-8"))
+        stamp = old.pop("updated", None)
+        if old == manifest and stamp:
+            print(f"manifest.json unchanged (version {manifest['version']})")
+            return 0
     manifest["updated"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     OUT.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     print(f"manifest.json: version {manifest['version']}, {len(manifest['files'])} files")
