@@ -30,6 +30,25 @@ def slug(s: str) -> str:
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", s)).strip("-")
 
 
+def _words(s: str) -> list[str]:
+    return [slug(w) for w in WORD.findall(s) if slug(w)]
+
+
+def form_matches_term(form: str, term: str) -> bool:
+    """A form must be an inflection or a fixed variant of the headword: at least one of its
+    words (4+ letters) starts with the same 4 letters as a word of the term. Short
+    headwords (under 4 letters, e.g. 'súd') match exactly."""
+    tw = _words(term)
+    for fw in _words(form):
+        for t in tw:
+            if len(t) < 4 or len(fw) < 4:
+                if fw == t:
+                    return True
+            elif fw[:4] == t[:4]:
+                return True
+    return False
+
+
 def house_rules(data: dict, name: str) -> list[str]:
     errs: list[str] = []
     ids: dict[str, str] = {}
@@ -39,6 +58,14 @@ def house_rules(data: dict, name: str) -> list[str]:
         if eid in ids:
             errs.append(f"{where}: duplicate id (also used by '{ids[eid]}')")
         ids[eid] = term
+        for f in e.get("forms") or []:
+            if re.fullmatch(r"[A-ZÁÄČĎÉÍĹĽŇÓÔŔŠŤÚÝŽ]{2,6}", f):
+                errs.append(f"{where}: form '{f}' is an abbreviation; put it in same_words (matched exactly)")
+            elif not form_matches_term(f, term):
+                errs.append(f"{where}: form '{f}' is not an inflection of '{term}'; move it to same_words or drop it")
+        for s in e.get("same_words") or []:
+            if slug(s) == eid or s in (e.get("forms") or []):
+                errs.append(f"{where}: same_words repeats the term or a form: '{s}'")
         easy = e.get("easy", "")
         for ln in easy.split("\n"):
             if not ln.strip():

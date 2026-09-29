@@ -4,7 +4,7 @@
   "description": "Spoločný slovník pre orgány verejnej správy na Slovensku: ťažké slová a ich vysvetlenia v ľahko čitateľnom jazyku. Overovací prototyp. Základ tvoria vysvetlenia z webu Úradu komisára pre osoby so zdravotným postihnutím, upravené tak, aby platili pre každý úrad.",
   "tier": "public",
   "lang": "sk",
-  "version": "2026-09-29.1",
+  "version": "2026-09-29.2",
   "updated": "2026-09-29",
   "licence": {
     "name": "CC BY 4.0",
@@ -75,8 +75,7 @@
       "forms": [
         "podnety",
         "podať podnet",
-        "podanie podnetu",
-        "podávateľ"
+        "podanie podnetu"
       ],
       "easy": "Podnet je správa o tom, že niekto porušil práva.\nPodnet môže podať každý.\nZa podanie podnetu nič neplatíte.\nPodnet môžete podať aj bez uvedenia mena.",
       "example": "Napríklad napíšete, že vás úrad nepustil dnu na vozíku.",
@@ -90,7 +89,8 @@
       "status": "draft",
       "origin": "adapted",
       "added": "2026-09-29",
-      "contributor": "athelas64"
+      "contributor": "athelas64",
+      "updated": "2026-09-29"
     },
     {
       "id": "referat",
@@ -177,8 +177,7 @@
       "term": "Dohovor OSN o právach osôb so zdravotným postihnutím",
       "forms": [
         "Dohovor OSN",
-        "dohovor",
-        "CRPD"
+        "dohovor"
       ],
       "easy": "Dohovor je medzinárodná zmluva.\nV tomto dohovore je napísané, aké práva máte.\nSlovensko ho musí dodržiavať.\nCRPD je skratka pre tento dohovor.",
       "same_words": [
@@ -195,7 +194,8 @@
       "status": "draft",
       "origin": "adapted",
       "added": "2026-09-29",
-      "contributor": "athelas64"
+      "contributor": "athelas64",
+      "updated": "2026-09-29"
     },
     {
       "id": "monitorovanie",
@@ -222,9 +222,7 @@
       "id": "prieskum",
       "term": "prieskum",
       "forms": [
-        "prieskumy",
-        "výskum",
-        "výskumy"
+        "prieskumy"
       ],
       "easy": "Prieskum znamená, že úrad zisťuje, aký je skutočný stav.\nVýsledky pomáhajú veci zlepšovať.",
       "example": "Úrad zisťoval, či sa do volebnej miestnosti dostane aj človek na vozíku.",
@@ -238,7 +236,12 @@
       "status": "draft",
       "origin": "adapted",
       "added": "2026-09-29",
-      "contributor": "athelas64"
+      "contributor": "athelas64",
+      "same_words": [
+        "výskum",
+        "výskumy"
+      ],
+      "updated": "2026-09-29"
     },
     {
       "id": "psychiatricke-zariadenie",
@@ -267,7 +270,6 @@
       "forms": [
         "zariadenia sociálnych služieb",
         "domov sociálnych služieb",
-        "DSS",
         "zariadenie pre seniorov"
       ],
       "easy": "V zariadeniach sociálnych služieb žijú ľudia so zdravotným postihnutím a seniori.\nNapríklad domov sociálnych služieb alebo zariadenie pre seniorov.",
@@ -284,14 +286,12 @@
       "status": "draft",
       "origin": "adapted",
       "added": "2026-09-29",
-      "contributor": "athelas64"
+      "contributor": "athelas64",
+      "updated": "2026-09-29"
     },
     {
       "id": "narodny-preventivny-mechanizmus",
       "term": "Národný preventívny mechanizmus",
-      "forms": [
-        "NPM"
-      ],
       "easy": "NPM znamená Národný preventívny mechanizmus.\nJe to úloha komisára.\nKomisár navštevuje zariadenia, odkiaľ ľudia nemôžu slobodne odísť.\nNapríklad domovy sociálnych služieb, psychiatrické nemocnice a väznice.\nChce, aby s ľuďmi v týchto zariadeniach nikto zle nezaobchádzal.",
       "same_words": [
         "NPM"
@@ -306,7 +306,8 @@
       "status": "draft",
       "origin": "adapted",
       "added": "2026-09-29",
-      "contributor": "athelas64"
+      "contributor": "athelas64",
+      "updated": "2026-09-29"
     },
     {
       "id": "systematicka-navsteva",
@@ -333,8 +334,7 @@
       "term": "zlé zaobchádzanie",
       "forms": [
         "neľudské zaobchádzanie",
-        "ponižujúce zaobchádzanie",
-        "mučenie"
+        "ponižujúce zaobchádzanie"
       ],
       "easy": "Zlé zaobchádzanie je správanie, ktoré človeka ponižuje.\nJe to aj správanie, ktoré človeku spôsobuje bolesť alebo strach.",
       "example": "Napríklad zbytočné obmedzovanie pohybu.\nAlebo keď človek nedostane potrebnú zdravotnú starostlivosť.",
@@ -348,7 +348,11 @@
       "status": "draft",
       "origin": "adapted",
       "added": "2026-09-29",
-      "contributor": "athelas64"
+      "contributor": "athelas64",
+      "same_words": [
+        "mučenie"
+      ],
+      "updated": "2026-09-29"
     },
     {
       "id": "spis",
@@ -513,7 +517,6 @@
       "id": "ministerstvo-investicii-regionalneho-rozvoja-a-informatizacie",
       "term": "Ministerstvo investícií, regionálneho rozvoja a informatizácie",
       "forms": [
-        "MIRRI",
         "ministerstvo informatizácie"
       ],
       "easy": "Ministerstvo investícií, regionálneho rozvoja a informatizácie je úrad štátu.\nDozerá aj na prístupnosť štátnych webov.\nSkratka je MIRRI.",
@@ -530,7 +533,8 @@
       "status": "draft",
       "origin": "adapted",
       "added": "2026-09-29",
-      "contributor": "athelas64"
+      "contributor": "athelas64",
+      "updated": "2026-09-29"
     },
     {
       "id": "publikacia",
@@ -597,8 +601,7 @@
       "forms": [
         "sprístupňovanie informácií",
         "sprístupnenie informácií",
-        "infozákon",
-        "zákon č. 211/2000 Z. z."
+        "infozákon"
       ],
       "easy": "Máte právo požiadať úrad o informácie.\nToto právo vám dáva zákon o slobodnom prístupe k informáciám.\nPožiadať môžete listom, e-mailom alebo osobne.\nÚrad vám musí odpovedať najneskôr do ôsmich pracovných dní.",
       "same_words": [
@@ -614,7 +617,8 @@
       "status": "draft",
       "origin": "adapted",
       "added": "2026-09-29",
-      "contributor": "athelas64"
+      "contributor": "athelas64",
+      "updated": "2026-09-29"
     },
     {
       "id": "vyberove-konanie",
@@ -750,8 +754,7 @@
       "forms": [
         "anonymizované",
         "anonymizácia",
-        "anonymne",
-        "bez uvedenia mena"
+        "anonymne"
       ],
       "easy": "Anonymizované znamená, že mená ľudí tam nie sú uvedené.\nNikto nespozná, o koho ide.",
       "domain": "právo",
@@ -764,14 +767,17 @@
       "status": "draft",
       "origin": "adapted",
       "added": "2026-09-29",
-      "contributor": "athelas64"
+      "contributor": "athelas64",
+      "same_words": [
+        "bez uvedenia mena"
+      ],
+      "updated": "2026-09-29"
     },
     {
       "id": "formular",
       "term": "formulár",
       "forms": [
-        "formuláre",
-        "tlačivo"
+        "formuláre"
       ],
       "easy": "Formulár je tlačivo.\nSú v ňom polia, do ktorých napíšete svoje údaje.",
       "domain": "ostatné",
@@ -785,7 +791,11 @@
       "status": "draft",
       "origin": "human",
       "added": "2026-09-29",
-      "contributor": "athelas64"
+      "contributor": "athelas64",
+      "same_words": [
+        "tlačivo"
+      ],
+      "updated": "2026-09-29"
     },
     {
       "id": "zakon-o-komisarovi",

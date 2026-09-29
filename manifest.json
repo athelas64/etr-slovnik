@@ -1,26 +1,26 @@
 {
   "name": "etr-slovnik",
-  "version": "2026-09-29.1",
+  "version": "2026-09-29.2",
   "schema": "schema/slovnik.schema.json",
   "files": {
     "slovniky/hurraki-sk.json": {
-      "sha256": "be82954f1dea7cd1abd550acdafda7e645c7c672e2277676cf4e925a0f26826d",
-      "bytes": 215560,
-      "entries": 172,
-      "version": "2026-09-29.1",
+      "sha256": "3de821d970b4957a4183046e82580b53bab8f7dd362594b6faf7b9f81a7337b9",
+      "bytes": 198039,
+      "entries": 171,
+      "version": "2026-09-29.2",
       "tier": "global",
       "lang": "sk",
       "licence": "CC BY-SA 3.0"
     },
     "slovniky/verejna-sprava-sk.json": {
-      "sha256": "4e027905331d7716824e94c945acfb3043556cdf3f08318cf8bd9cf8438ca46f",
-      "bytes": 31703,
+      "sha256": "64064339df74e823758864da5c2ffe10147a184f404b2af6010649f864ededc8",
+      "bytes": 31985,
       "entries": 43,
-      "version": "2026-09-29.1",
+      "version": "2026-09-29.2",
       "tier": "public",
       "lang": "sk",
       "licence": "CC BY 4.0"
     }
   },
-  "updated": "2026-09-29T05:34:53Z"
+  "updated": "2026-09-29T10:53:36Z"
 }
