@@ -29,7 +29,7 @@
   "entries": [
     {
       "id": "ambulancia",
-      "term": "Ambulancia",
+      "term": "ambulancia",
       "forms": [
         "ambulancie",
         "v ambulancii",
@@ -61,7 +61,7 @@
     },
     {
       "id": "anamneza",
-      "term": "Anamnéza",
+      "term": "anamnéza",
       "forms": [
         "anamnézy",
         "rodinná anamnéza",
@@ -91,7 +91,7 @@
     },
     {
       "id": "antibiotika",
-      "term": "Antibiotiká",
+      "term": "antibiotiká",
       "forms": [
         "antibiotikum",
         "antibiotík",
@@ -118,7 +118,7 @@
     },
     {
       "id": "antidiskriminacny-zakon",
-      "term": "Antidiskriminačný zákon",
+      "term": "antidiskriminačný zákon",
       "forms": [
         "antidiskriminačného zákona",
         "zákaz diskriminácie",
@@ -180,7 +180,7 @@
     },
     {
       "id": "audiokomentar",
-      "term": "Audiokomentár",
+      "term": "audiokomentár",
       "forms": [
         "audiokomentára",
         "audio komentár",
@@ -341,6 +341,38 @@
       "contributor": "Claude (strojový preklad), athelas64"
     },
     {
+      "id": "chronicky",
+      "term": "chronický",
+      "forms": [
+        "chronická",
+        "chronické",
+        "chronicky",
+        "chronické ochorenie",
+        "chronický pacient"
+      ],
+      "easy": "Chronický znamená dlhotrvajúci.\nChronická choroba trvá dlho, často celý život.\nNapríklad cukrovka alebo astma.\nChronickú chorobu často nejde vyliečiť, ale dá sa liečiť.\nOpak je akútny, to znamená náhly a krátky.",
+      "example": "Máte chronickú bolesť chrbta.\nTo znamená, že chrbát vás bolí už dlho.",
+      "same_words": [
+        "dlhodobý",
+        "trvalý",
+        "chronické ochorenie",
+        "dlhodobo chorý"
+      ],
+      "domain": "zdravie",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Chronisch",
+        "title": "Chronisch",
+        "revision": 26088,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
       "id": "chranena-dielna",
       "term": "chránená dielňa",
       "forms": [
@@ -372,40 +404,8 @@
       "contributor": "Claude (strojový preklad), athelas64"
     },
     {
-      "id": "chronicky",
-      "term": "Chronický",
-      "forms": [
-        "chronická",
-        "chronické",
-        "chronicky",
-        "chronické ochorenie",
-        "chronický pacient"
-      ],
-      "easy": "Chronický znamená dlhotrvajúci.\nChronická choroba trvá dlho, často celý život.\nNapríklad cukrovka alebo astma.\nChronickú chorobu často nejde vyliečiť, ale dá sa liečiť.\nOpak je akútny, to znamená náhly a krátky.",
-      "example": "Máte chronickú bolesť chrbta.\nTo znamená, že chrbát vás bolí už dlho.",
-      "same_words": [
-        "dlhodobý",
-        "trvalý",
-        "chronické ochorenie",
-        "dlhodobo chorý"
-      ],
-      "domain": "zdravie",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Chronisch",
-        "title": "Chronisch",
-        "revision": 26088,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
       "id": "cukrovka",
-      "term": "Cukrovka",
+      "term": "cukrovka",
       "forms": [
         "cukrovky",
         "s cukrovkou",
@@ -428,6 +428,35 @@
         "url": "https://hurraki.de/wiki/Diabetes",
         "title": "Diabetes",
         "revision": 8930,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "darovanie-organov",
+      "term": "darovanie orgánov",
+      "forms": [
+        "darcovstvo orgánov",
+        "darca orgánov",
+        "transplantácia"
+      ],
+      "easy": "Darovanie orgánov znamená, že človek dá svoj orgán inému človeku.\nOrgán je napríklad oblička, srdce alebo pečeň.\nChorý človek dostane zdravý orgán a môže ďalej žiť.\nOrgány sa darujú najčastejšie po smrti.\nAk nechcete darovať orgány po smrti, môžete to vopred písomne odmietnuť.",
+      "example": "Pani Hrubá má chorú obličku.\nDostala obličku od darcu.\nTeraz už nemusí chodiť na dialýzu.",
+      "same_words": [
+        "darcovstvo orgánov",
+        "transplantácia"
+      ],
+      "domain": "zdravie",
+      "note": "Nemecko vyžaduje výslovný súhlas darcu. Na Slovensku platí predpokladaný súhlas, kto nechce darovať, musí nesúhlas vopred písomne vyjadriť.",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Organspende",
+        "title": "Organspende",
+        "revision": 15061,
         "fetched": "2026-09-29",
         "licence": "CC BY-SA 3.0 DE"
       },
@@ -494,37 +523,8 @@
       "contributor": "Claude (strojový preklad), athelas64"
     },
     {
-      "id": "darovanie-organov",
-      "term": "darovanie orgánov",
-      "forms": [
-        "darcovstvo orgánov",
-        "darca orgánov",
-        "transplantácia"
-      ],
-      "easy": "Darovanie orgánov znamená, že človek dá svoj orgán inému človeku.\nOrgán je napríklad oblička, srdce alebo pečeň.\nChorý človek dostane zdravý orgán a môže ďalej žiť.\nOrgány sa darujú najčastejšie po smrti.\nAk nechcete darovať orgány po smrti, môžete to vopred písomne odmietnuť.",
-      "example": "Pani Hrubá má chorú obličku.\nDostala obličku od darcu.\nTeraz už nemusí chodiť na dialýzu.",
-      "same_words": [
-        "darcovstvo orgánov",
-        "transplantácia"
-      ],
-      "domain": "zdravie",
-      "note": "Nemecko vyžaduje výslovný súhlas darcu. Na Slovensku platí predpokladaný súhlas, kto nechce darovať, musí nesúhlas vopred písomne vyjadriť.",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Organspende",
-        "title": "Organspende",
-        "revision": 15061,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
       "id": "demencia",
-      "term": "Demencia",
+      "term": "demencia",
       "forms": [
         "demencie",
         "s demenciou",
@@ -554,7 +554,7 @@
     },
     {
       "id": "depresia",
-      "term": "Depresia",
+      "term": "depresia",
       "forms": [
         "depresie",
         "depresívny",
@@ -584,7 +584,7 @@
     },
     {
       "id": "diagnoza",
-      "term": "Diagnóza",
+      "term": "diagnóza",
       "forms": [
         "diagnózy",
         "určiť diagnózu",
@@ -708,40 +708,6 @@
       "contributor": "Claude (strojový preklad), athelas64"
     },
     {
-      "id": "dochodok",
-      "term": "dôchodok",
-      "forms": [
-        "dôchodky",
-        "dôchodku",
-        "starobný dôchodok",
-        "invalidný dôchodok",
-        "penzia",
-        "dôchodca"
-      ],
-      "easy": "Dôchodok sú peniaze, ktoré dostávate každý mesiac, keď už nepracujete.\nStarobný dôchodok dostávate, keď ste starší a odpracovali ste dosť rokov.\nInvalidný dôchodok dostávate, keď pre chorobu alebo zdravotné postihnutie nemôžete pracovať.\nDôchodok vypláca Sociálna poisťovňa.\nO dôchodok musíte požiadať.",
-      "example": "Pán Vrba má 64 rokov.\nPracoval 42 rokov.\nTeraz poberá starobný dôchodok.",
-      "same_words": [
-        "penzia",
-        "starobný dôchodok",
-        "invalidný dôchodok",
-        "renta"
-      ],
-      "domain": "peniaze",
-      "note": "Nemecký článok hovorí o Rente. Na Slovensku vypláca dôchodky Sociálna poisťovňa, vek odchodu do dôchodku sa mení, neuvádzať konkrétne číslo.",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Rente",
-        "title": "Rente",
-        "revision": 38498,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
       "id": "druzstvo",
       "term": "družstvo",
       "forms": [
@@ -837,8 +803,42 @@
       "contributor": "Claude (strojový preklad), athelas64"
     },
     {
+      "id": "dochodok",
+      "term": "dôchodok",
+      "forms": [
+        "dôchodky",
+        "dôchodku",
+        "starobný dôchodok",
+        "invalidný dôchodok",
+        "penzia",
+        "dôchodca"
+      ],
+      "easy": "Dôchodok sú peniaze, ktoré dostávate každý mesiac, keď už nepracujete.\nStarobný dôchodok dostávate, keď ste starší a odpracovali ste dosť rokov.\nInvalidný dôchodok dostávate, keď pre chorobu alebo zdravotné postihnutie nemôžete pracovať.\nDôchodok vypláca Sociálna poisťovňa.\nO dôchodok musíte požiadať.",
+      "example": "Pán Vrba má 64 rokov.\nPracoval 42 rokov.\nTeraz poberá starobný dôchodok.",
+      "same_words": [
+        "penzia",
+        "starobný dôchodok",
+        "invalidný dôchodok",
+        "renta"
+      ],
+      "domain": "peniaze",
+      "note": "Nemecký článok hovorí o Rente. Na Slovensku vypláca dôchodky Sociálna poisťovňa, vek odchodu do dôchodku sa mení, neuvádzať konkrétne číslo.",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Rente",
+        "title": "Rente",
+        "revision": 38498,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
       "id": "elektroodpad",
-      "term": "Elektroodpad",
+      "term": "elektroodpad",
       "forms": [
         "elektroodpadu",
         "elektronický odpad",
@@ -869,7 +869,7 @@
     },
     {
       "id": "ergoterapia",
-      "term": "Ergoterapia",
+      "term": "ergoterapia",
       "forms": [
         "ergoterapie",
         "ergoterapeut",
@@ -1120,7 +1120,7 @@
     },
     {
       "id": "inkaso",
-      "term": "Inkaso",
+      "term": "inkaso",
       "forms": [
         "inkasa",
         "súhlas s inkasom",
@@ -1245,7 +1245,7 @@
     },
     {
       "id": "komisar-pre-osoby-so-zdravotnym-postihnutim",
-      "term": "Komisár pre osoby so zdravotným postihnutím",
+      "term": "komisár pre osoby so zdravotným postihnutím",
       "forms": [
         "komisárka pre osoby so zdravotným postihnutím",
         "úrad komisára",
@@ -1307,7 +1307,7 @@
     },
     {
       "id": "lekarske-potvrdenie",
-      "term": "Lekárske potvrdenie",
+      "term": "lekárske potvrdenie",
       "forms": [
         "lekárskeho potvrdenia",
         "potvrdenie od lekára",
@@ -1421,61 +1421,6 @@
         "url": "https://hurraki.de/wiki/Verschreibungspflicht",
         "title": "Verschreibungspflicht",
         "revision": 28526,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
-      "id": "ludska-dostojnost",
-      "term": "ľudská dôstojnosť",
-      "forms": [
-        "ľudskej dôstojnosti",
-        "dôstojnosť",
-        "dôstojnosti"
-      ],
-      "easy": "Ľudská dôstojnosť znamená, že každý človek má hodnotu.\nKaždý človek si zaslúži úctu.\nNezáleží na tom, či je chudobný, chorý alebo starý.\nNikto vás nesmie ponižovať ani s vami zle zaobchádzať.\nÚrady a nemocnice musia vašu dôstojnosť rešpektovať.",
-      "example": "Opatrovateľka zaklope, kým vojde do vašej izby.\nTak rešpektuje vašu dôstojnosť.",
-      "same_words": [
-        "dôstojnosť"
-      ],
-      "domain": "právo",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Menschenw%C3%BCrde",
-        "title": "Menschenwürde",
-        "revision": 35420,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
-      "id": "ludske-prava",
-      "term": "ľudské práva",
-      "forms": [
-        "ľudských práv",
-        "ľudskými právami",
-        "základné práva"
-      ],
-      "easy": "Ľudské práva sú práva, ktoré má každý človek.\nMáte ich od narodenia.\nNikto vám ich nemôže vziať.\nĽudia so zdravotným postihnutím majú rovnaké práva ako ostatní.\nĽudské práva chráni ústava a medzinárodné zmluvy.",
-      "example": "Každý človek má právo na život.\nKaždý človek má právo na vzdelanie.\nKaždý človek má právo povedať svoj názor.",
-      "same_words": [
-        "základné práva",
-        "základné ľudské práva a slobody"
-      ],
-      "domain": "právo",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Menschenrechte",
-        "title": "Menschenrechte",
-        "revision": 41686,
         "fetched": "2026-09-29",
         "licence": "CC BY-SA 3.0 DE"
       },
@@ -1862,40 +1807,6 @@
       "contributor": "Claude (strojový preklad), athelas64"
     },
     {
-      "id": "najomne",
-      "term": "nájomné",
-      "forms": [
-        "nájomného",
-        "nájom",
-        "holé nájomné",
-        "nájomné bez energií"
-      ],
-      "easy": "Nájomné sú peniaze, ktoré platíte za bývanie v cudzom byte.\nNájomné platíte majiteľovi bytu každý mesiac.\nHolé nájomné je len za byt, bez energií.\nEnergie sú napríklad voda, kúrenie, plyn a elektrina.\nPozrite si v zmluve, či sú energie v cene, alebo ich platíte zvlášť.",
-      "example": "Eva platí za byt 400 eur nájomné.\nK tomu platí zvlášť 150 eur za energie.\nSpolu platí 550 eur mesačne.",
-      "same_words": [
-        "nájom",
-        "holé nájomné",
-        "čisté nájomné",
-        "nájomné plus energie",
-        "nájomná zmluva",
-        "prenajímateľ"
-      ],
-      "domain": "bývanie",
-      "note": "Nemecký článok rozlišuje Kaltmiete a Warmmiete. Na Slovensku sa hovorí nájomné a energie, prípadne služby spojené s bývaním. Sumy v príklade sú len ilustračné.",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Kaltmiete",
-        "title": "Kaltmiete",
-        "revision": 35167,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
       "id": "nelegalna-praca",
       "term": "nelegálna práca",
       "forms": [
@@ -1988,8 +1899,72 @@
       "contributor": "Claude (strojový preklad), athelas64"
     },
     {
+      "id": "najomne",
+      "term": "nájomné",
+      "forms": [
+        "nájomného",
+        "nájom",
+        "holé nájomné",
+        "nájomné bez energií"
+      ],
+      "easy": "Nájomné sú peniaze, ktoré platíte za bývanie v cudzom byte.\nNájomné platíte majiteľovi bytu každý mesiac.\nHolé nájomné je len za byt, bez energií.\nEnergie sú napríklad voda, kúrenie, plyn a elektrina.\nPozrite si v zmluve, či sú energie v cene, alebo ich platíte zvlášť.",
+      "example": "Eva platí za byt 400 eur nájomné.\nK tomu platí zvlášť 150 eur za energie.\nSpolu platí 550 eur mesačne.",
+      "same_words": [
+        "nájom",
+        "holé nájomné",
+        "čisté nájomné",
+        "nájomné plus energie",
+        "nájomná zmluva",
+        "prenajímateľ"
+      ],
+      "domain": "bývanie",
+      "note": "Nemecký článok rozlišuje Kaltmiete a Warmmiete. Na Slovensku sa hovorí nájomné a energie, prípadne služby spojené s bývaním. Sumy v príklade sú len ilustračné.",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Kaltmiete",
+        "title": "Kaltmiete",
+        "revision": 35167,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "objemny-odpad",
+      "term": "objemný odpad",
+      "forms": [
+        "objemného odpadu",
+        "objemné odpady",
+        "veľkoobjemový odpad",
+        "zber objemného odpadu"
+      ],
+      "easy": "Objemný odpad je veľký odpad.\nNezmestí sa do bežnej nádoby na smeti.\nNapríklad stará pohovka, skriňa, koberec alebo matrac.\nObjemný odpad nesmiete nechať pri kontajneri.\nOdveziete ho do zberného dvora alebo ho odvezie obec.",
+      "same_words": [
+        "veľkoobjemový odpad",
+        "nadrozmerný odpad",
+        "veľkokapacitný kontajner"
+      ],
+      "domain": "bývanie",
+      "note": "Termíny zberu a poplatky určuje každá obec inak. Overte ich pred písaním.",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Sperrm%C3%BCll",
+        "title": "Sperrmüll",
+        "revision": 38462,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
       "id": "obcan",
-      "term": "Občan",
+      "term": "občan",
       "forms": [
         "občania",
         "občanov",
@@ -2048,38 +2023,8 @@
       "contributor": "Claude (strojový preklad), athelas64"
     },
     {
-      "id": "objemny-odpad",
-      "term": "objemný odpad",
-      "forms": [
-        "objemného odpadu",
-        "objemné odpady",
-        "veľkoobjemový odpad",
-        "zber objemného odpadu"
-      ],
-      "easy": "Objemný odpad je veľký odpad.\nNezmestí sa do bežnej nádoby na smeti.\nNapríklad stará pohovka, skriňa, koberec alebo matrac.\nObjemný odpad nesmiete nechať pri kontajneri.\nOdveziete ho do zberného dvora alebo ho odvezie obec.",
-      "same_words": [
-        "veľkoobjemový odpad",
-        "nadrozmerný odpad",
-        "veľkokapacitný kontajner"
-      ],
-      "domain": "bývanie",
-      "note": "Termíny zberu a poplatky určuje každá obec inak. Overte ich pred písaním.",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Sperrm%C3%BCll",
-        "title": "Sperrmüll",
-        "revision": 38462,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
       "id": "ochrana-osobnych-udajov",
-      "term": "Ochrana osobných údajov",
+      "term": "ochrana osobných údajov",
       "forms": [
         "ochrany osobných údajov",
         "osobné údaje",
@@ -2100,101 +2045,6 @@
         "url": "https://hurraki.de/wiki/Datenschutz",
         "title": "Datenschutz",
         "revision": 41479,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
-      "id": "ockovacia-latka",
-      "term": "očkovacia látka",
-      "forms": [
-        "očkovacie látky",
-        "očkovacej látky",
-        "vakcína",
-        "vakcíny"
-      ],
-      "easy": "Očkovacia látka je liek, ktorý sa používa pri očkovaní.\nLekár vám ju podá injekciou alebo ústami.\nTelo sa naučí brániť sa proti chorobe.\nPotom ste proti chorobe chránení.\nInak sa očkovacia látka volá vakcína.",
-      "example": "Sestrička podá Petrovi očkovaciu látku proti chrípke.\nPeter potom chrípku nedostane, alebo ju má len ľahkú.",
-      "same_words": [
-        "vakcína",
-        "vakcíny",
-        "očkovanie",
-        "sérum"
-      ],
-      "domain": "zdravie",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Impfstoff",
-        "title": "Impfstoff",
-        "revision": 41490,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
-      "id": "ockovaci-preukaz",
-      "term": "očkovací preukaz",
-      "forms": [
-        "očkovacieho preukazu",
-        "v očkovacom preukaze",
-        "očkovacie preukazy",
-        "očkovací záznam"
-      ],
-      "easy": "Očkovací preukaz je malý zošit alebo karta.\nJe v ňom zapísané, aké očkovania ste dostali a kedy.\nZápis robí lekár.\nOčkovací preukaz si vezmite k lekárovi a na cesty do niektorých krajín.\nVďaka preukazu nedostanete rovnaké očkovanie 2 razy.",
-      "same_words": [
-        "očkovací záznam",
-        "medzinárodný očkovací preukaz",
-        "potvrdenie o očkovaní",
-        "zdravotný záznam"
-      ],
-      "domain": "zdravie",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/%C3%9Cbung%3A_Impfausweis",
-        "title": "Übung: Impfausweis",
-        "revision": 37338,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
-      "id": "ockovanie",
-      "term": "očkovanie",
-      "forms": [
-        "očkovania",
-        "očkovaní",
-        "zaočkovaný",
-        "zaočkovaná",
-        "očkovací preukaz"
-      ],
-      "easy": "Očkovanie je ochrana pred niektorými chorobami.\nLekár vám podá očkovaciu látku.\nTelo si vytvorí obranu proti chorobe.\nNiektoré očkovania sú povinné pre deti.\nIné očkovania sú dobrovoľné, napríklad proti chrípke.",
-      "example": "Eva ide k lekárovi na očkovanie proti chrípke.\nSestrička jej dá injekciu do ramena.\nLekár to zapíše do očkovacieho preukazu.",
-      "same_words": [
-        "vakcinácia",
-        "zaočkovanie",
-        "očkovacia látka",
-        "vakcína",
-        "preočkovanie"
-      ],
-      "domain": "zdravie",
-      "note": "Zoznam povinných očkovaní na Slovensku určuje vyhláška, autor ho neuvádza z pamäti.",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Impfung",
-        "title": "Impfung",
-        "revision": 36182,
         "fetched": "2026-09-29",
         "licence": "CC BY-SA 3.0 DE"
       },
@@ -2236,7 +2086,7 @@
     },
     {
       "id": "oddelenie",
-      "term": "Oddelenie",
+      "term": "oddelenie",
       "forms": [
         "oddelenia",
         "na oddelení",
@@ -2332,7 +2182,7 @@
     },
     {
       "id": "odstupne",
-      "term": "Odstupné",
+      "term": "odstupné",
       "forms": [
         "odstupného",
         "nárok na odstupné",
@@ -2454,7 +2304,7 @@
     },
     {
       "id": "osobna-asistencia",
-      "term": "Osobná asistencia",
+      "term": "osobná asistencia",
       "forms": [
         "osobnej asistencie",
         "osobný asistent",
@@ -2505,6 +2355,101 @@
         "url": "https://hurraki.de/wiki/Wahlbenachrichtigung",
         "title": "Wahlbenachrichtigung",
         "revision": 27178,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "ockovacia-latka",
+      "term": "očkovacia látka",
+      "forms": [
+        "očkovacie látky",
+        "očkovacej látky",
+        "vakcína",
+        "vakcíny"
+      ],
+      "easy": "Očkovacia látka je liek, ktorý sa používa pri očkovaní.\nLekár vám ju podá injekciou alebo ústami.\nTelo sa naučí brániť sa proti chorobe.\nPotom ste proti chorobe chránení.\nInak sa očkovacia látka volá vakcína.",
+      "example": "Sestrička podá Petrovi očkovaciu látku proti chrípke.\nPeter potom chrípku nedostane, alebo ju má len ľahkú.",
+      "same_words": [
+        "vakcína",
+        "vakcíny",
+        "očkovanie",
+        "sérum"
+      ],
+      "domain": "zdravie",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Impfstoff",
+        "title": "Impfstoff",
+        "revision": 41490,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "ockovaci-preukaz",
+      "term": "očkovací preukaz",
+      "forms": [
+        "očkovacieho preukazu",
+        "v očkovacom preukaze",
+        "očkovacie preukazy",
+        "očkovací záznam"
+      ],
+      "easy": "Očkovací preukaz je malý zošit alebo karta.\nJe v ňom zapísané, aké očkovania ste dostali a kedy.\nZápis robí lekár.\nOčkovací preukaz si vezmite k lekárovi a na cesty do niektorých krajín.\nVďaka preukazu nedostanete rovnaké očkovanie 2 razy.",
+      "same_words": [
+        "očkovací záznam",
+        "medzinárodný očkovací preukaz",
+        "potvrdenie o očkovaní",
+        "zdravotný záznam"
+      ],
+      "domain": "zdravie",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/%C3%9Cbung%3A_Impfausweis",
+        "title": "Übung: Impfausweis",
+        "revision": 37338,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "ockovanie",
+      "term": "očkovanie",
+      "forms": [
+        "očkovania",
+        "očkovaní",
+        "zaočkovaný",
+        "zaočkovaná",
+        "očkovací preukaz"
+      ],
+      "easy": "Očkovanie je ochrana pred niektorými chorobami.\nLekár vám podá očkovaciu látku.\nTelo si vytvorí obranu proti chorobe.\nNiektoré očkovania sú povinné pre deti.\nIné očkovania sú dobrovoľné, napríklad proti chrípke.",
+      "example": "Eva ide k lekárovi na očkovanie proti chrípke.\nSestrička jej dá injekciu do ramena.\nLekár to zapíše do očkovacieho preukazu.",
+      "same_words": [
+        "vakcinácia",
+        "zaočkovanie",
+        "očkovacia látka",
+        "vakcína",
+        "preočkovanie"
+      ],
+      "domain": "zdravie",
+      "note": "Zoznam povinných očkovaní na Slovensku určuje vyhláška, autor ho neuvádza z pamäti.",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Impfung",
+        "title": "Impfung",
+        "revision": 36182,
         "fetched": "2026-09-29",
         "licence": "CC BY-SA 3.0 DE"
       },
@@ -2761,7 +2706,7 @@
     },
     {
       "id": "podmienka",
-      "term": "Podmienka",
+      "term": "podmienka",
       "forms": [
         "podmienky",
         "podmienok",
@@ -2792,7 +2737,7 @@
     },
     {
       "id": "podporovane-byvanie",
-      "term": "Podporované bývanie",
+      "term": "podporované bývanie",
       "forms": [
         "podporovaného bývania",
         "zariadenie podporovaného bývania",
@@ -2917,7 +2862,7 @@
     },
     {
       "id": "pomoc-v-hmotnej-nudzi",
-      "term": "Pomoc v hmotnej núdzi",
+      "term": "pomoc v hmotnej núdzi",
       "forms": [
         "pomoci v hmotnej núdzi",
         "dávka v hmotnej núdzi",
@@ -2979,7 +2924,7 @@
     },
     {
       "id": "poradenstvo",
-      "term": "Poradenstvo",
+      "term": "poradenstvo",
       "forms": [
         "poradenstva",
         "sociálne poradenstvo",
@@ -3131,6 +3076,69 @@
       "contributor": "Claude (strojový preklad), athelas64"
     },
     {
+      "id": "priestupok",
+      "term": "priestupok",
+      "forms": [
+        "priestupku",
+        "priestupky",
+        "priestupkov",
+        "priestupkové konanie",
+        "dopustiť sa priestupku"
+      ],
+      "easy": "Priestupok je menšie porušenie zákona.\nNie je to trestný čin.\nNapríklad rýchla jazda, rušenie nočného pokoja alebo odhodenie odpadu.\nZa priestupok dostanete pokutu alebo napomenutie.\nPriestupky väčšinou rieši polícia alebo úrad.",
+      "same_words": [
+        "priestupky",
+        "pokuta",
+        "priestupkové konanie",
+        "správny delikt",
+        "porušenie predpisu"
+      ],
+      "domain": "právo",
+      "note": "Nemecká Übertretung je historický pojem. Slovenský priestupok je živý pojem správneho práva.",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/%C3%9Cbertretung",
+        "title": "Übertretung",
+        "revision": 27547,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "prokurator",
+      "term": "prokurátor",
+      "forms": [
+        "prokurátora",
+        "prokurátori",
+        "prokurátorka",
+        "prokuratúra"
+      ],
+      "easy": "Prokurátor je právnik, ktorý pracuje pre štát.\nProkurátor rozhoduje, či niekoho obžaluje z trestného činu.\nPolícia mu dáva všetko, čo zistí.\nNa súde prokurátor hovorí, čo obvinený urobil.\nNavrhuje súdu, aký trest má obvinený dostať.",
+      "same_words": [
+        "prokurátorka",
+        "prokuratúra",
+        "žalobca",
+        "verejný žalobca"
+      ],
+      "domain": "právo",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Staatsanwalt",
+        "title": "Staatsanwalt",
+        "revision": 29820,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
       "id": "praca-na-kratsi-pracovny-cas",
       "term": "práca na kratší pracovný čas",
       "forms": [
@@ -3255,41 +3263,8 @@
       "contributor": "Claude (strojový preklad), athelas64"
     },
     {
-      "id": "priestupok",
-      "term": "priestupok",
-      "forms": [
-        "priestupku",
-        "priestupky",
-        "priestupkov",
-        "priestupkové konanie",
-        "dopustiť sa priestupku"
-      ],
-      "easy": "Priestupok je menšie porušenie zákona.\nNie je to trestný čin.\nNapríklad rýchla jazda, rušenie nočného pokoja alebo odhodenie odpadu.\nZa priestupok dostanete pokutu alebo napomenutie.\nPriestupky väčšinou rieši polícia alebo úrad.",
-      "same_words": [
-        "priestupky",
-        "pokuta",
-        "priestupkové konanie",
-        "správny delikt",
-        "porušenie predpisu"
-      ],
-      "domain": "právo",
-      "note": "Nemecká Übertretung je historický pojem. Slovenský priestupok je živý pojem správneho práva.",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/%C3%9Cbertretung",
-        "title": "Übertretung",
-        "revision": 27547,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
       "id": "pribalovy-letak",
-      "term": "Príbalový leták",
+      "term": "príbalový leták",
       "forms": [
         "príbalového letáku",
         "príbalová informácia",
@@ -3317,7 +3292,7 @@
     },
     {
       "id": "prijem",
-      "term": "Príjem",
+      "term": "príjem",
       "forms": [
         "príjmy",
         "príjmu",
@@ -3342,36 +3317,6 @@
         "url": "https://hurraki.de/wiki/Einkommen",
         "title": "Einkommen",
         "revision": 38390,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
-      "id": "prokurator",
-      "term": "prokurátor",
-      "forms": [
-        "prokurátora",
-        "prokurátori",
-        "prokurátorka",
-        "prokuratúra"
-      ],
-      "easy": "Prokurátor je právnik, ktorý pracuje pre štát.\nProkurátor rozhoduje, či niekoho obžaluje z trestného činu.\nPolícia mu dáva všetko, čo zistí.\nNa súde prokurátor hovorí, čo obvinený urobil.\nNavrhuje súdu, aký trest má obvinený dostať.",
-      "same_words": [
-        "prokurátorka",
-        "prokuratúra",
-        "žalobca",
-        "verejný žalobca"
-      ],
-      "domain": "právo",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Staatsanwalt",
-        "title": "Staatsanwalt",
-        "revision": 29820,
         "fetched": "2026-09-29",
         "licence": "CC BY-SA 3.0 DE"
       },
@@ -3411,7 +3356,7 @@
     },
     {
       "id": "rodicovsky-prispevok",
-      "term": "Rodičovský príspevok",
+      "term": "rodičovský príspevok",
       "forms": [
         "rodičovského príspevku",
         "rodičovské",
@@ -3993,100 +3938,8 @@
       "contributor": "Claude (strojový preklad), athelas64"
     },
     {
-      "id": "specialna-pedagogika",
-      "term": "špeciálna pedagogika",
-      "forms": [
-        "špeciálnej pedagogiky",
-        "špeciálnu pedagogiku",
-        "špeciálny pedagóg",
-        "špeciálni pedagógovia"
-      ],
-      "easy": "Špeciálna pedagogika je odbor o učení detí s osobitnými potrebami.\nUčitelia v tomto odbore majú osobitné vzdelanie.\nPomáhajú deťom s ťažkosťami pri učení.\nPomáhajú aj deťom so zdravotným postihnutím.\nCieľ je, aby sa každé dieťa mohlo dobre učiť.",
-      "example": "V škole pracuje špeciálna pedagogička.\nPomáha vášmu dieťaťu s čítaním.",
-      "same_words": [
-        "špeciálny pedagóg",
-        "špeciálna škola",
-        "špeciálnopedagogická podpora",
-        "školský špeciálny pedagóg"
-      ],
-      "domain": "vzdelávanie",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Sonderp%C3%A4dagogik",
-        "title": "Sonderpädagogik",
-        "revision": 43298,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
-      "id": "statne-obcianstvo",
-      "term": "štátne občianstvo",
-      "forms": [
-        "štátneho občianstva",
-        "štátnom občianstve",
-        "štátny občan",
-        "štátna občianka"
-      ],
-      "easy": "Štátne občianstvo je vzťah medzi vami a štátom.\nČlovek so štátnym občianstvom je občan.\nObčan má práva, napríklad právo voliť.\nObčan má aj povinnosti, napríklad dodržiavať zákony.\nŠtátne občianstvo dostanete narodením alebo na žiadosť.",
-      "same_words": [
-        "občianstvo",
-        "štátna príslušnosť",
-        "občan",
-        "občianka",
-        "osvedčenie o štátnom občianstve"
-      ],
-      "domain": "právo",
-      "note": "Podmienky udelenia štátneho občianstva upravuje slovenský zákon. Nepíšte lehoty bez overenia.",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Staatsb%C3%BCrgerschaft",
-        "title": "Staatsbürgerschaft",
-        "revision": 33307,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
-      "id": "statny-jazyk",
-      "term": "Štátny jazyk",
-      "forms": [
-        "štátneho jazyka",
-        "úradný jazyk",
-        "úradná reč"
-      ],
-      "easy": "Štátny jazyk je jazyk, ktorý používajú úrady.\nNa Slovensku je štátny jazyk slovenčina.\nÚrady s vami hovoria a píšu po slovensky.\nV niektorých obciach môžete na úrade použiť aj jazyk národnostnej menšiny.\nAk nerozumiete po slovensky, požiadajte o tlmočníka.",
-      "same_words": [
-        "úradný jazyk",
-        "slovenčina",
-        "slovenský jazyk"
-      ],
-      "domain": "úrad",
-      "note": "Nemecký článok zdôrazňuje, že úradná reč je ťažko zrozumiteľná. V slovenskom hesle to nahradzuje právo požiadať o tlmočníka a jazyky menšín.",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Amtssprache",
-        "title": "Amtssprache",
-        "revision": 27182,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
       "id": "tlmocnik",
-      "term": "Tlmočník",
+      "term": "tlmočník",
       "forms": [
         "tlmočníci",
         "tlmočníčka",
@@ -4119,7 +3972,7 @@
     },
     {
       "id": "triedenie-odpadu",
-      "term": "Triedenie odpadu",
+      "term": "triedenie odpadu",
       "forms": [
         "triedený odpad",
         "triediť odpad",
@@ -4202,165 +4055,6 @@
         "url": "https://hurraki.de/wiki/Fl%C3%BCchtling",
         "title": "Flüchtling",
         "revision": 35938,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
-      "id": "ucast-na-zivote-spolocnosti",
-      "term": "účasť na živote spoločnosti",
-      "forms": [
-        "účasti na živote spoločnosti",
-        "plná účasť",
-        "spoločenská účasť",
-        "začlenenie"
-      ],
-      "easy": "Účasť na živote spoločnosti znamená, že sa môžete zapojiť do všetkého.\nDo práce, do školy, do kultúry, do športu aj do volieb.\nĽudia so zdravotným postihnutím na to majú právo.\nPreto nesmú byť v ceste bariéry.\nŠtát a obce majú účasť podporovať.",
-      "same_words": [
-        "participácia",
-        "začlenenie",
-        "inklúzia",
-        "zapojenie",
-        "spoluúčasť"
-      ],
-      "domain": "sociálne služby",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Teilhabe",
-        "title": "Teilhabe",
-        "revision": 22204,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
-      "id": "urad",
-      "term": "Úrad",
-      "forms": [
-        "úrady",
-        "úradu",
-        "na úrade",
-        "úradník",
-        "úradníčka"
-      ],
-      "easy": "Úrad je organizácia štátu, mesta alebo obce.\nÚrad vybavuje veci pre občanov.\nNapríklad doklady, dávky, dane alebo povolenia.\nNa úrad idete osobne alebo píšete cez internet.\nÚradník je človek, ktorý na úrade pracuje.",
-      "example": "Nový občiansky preukaz vybavíte na oddelení dokladov na polícii.\nSociálne dávky vybavíte na úrade práce.",
-      "same_words": [
-        "štátny orgán",
-        "verejná správa",
-        "inštitúcia",
-        "obecný úrad",
-        "mestský úrad",
-        "úrad práce"
-      ],
-      "domain": "úrad",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Beh%C3%B6rde",
-        "title": "Behörde",
-        "revision": 34792,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
-      "id": "urad-prace-socialnych-veci-a-rodiny",
-      "term": "úrad práce, sociálnych vecí a rodiny",
-      "forms": [
-        "úrad práce",
-        "na úrade práce",
-        "úrady práce",
-        "úradu práce, sociálnych vecí a rodiny"
-      ],
-      "easy": "Úrad práce, sociálnych vecí a rodiny je štátny úrad.\nĽudia mu hovoria aj úrad práce.\nPomáha ľuďom, ktorí nemajú prácu.\nPomáha ľuďom, ktorí majú málo peňazí.\nNa tomto úrade žiadate o sociálne dávky.",
-      "example": "Stratili ste prácu.\nIdete na úrad práce.\nTam sa zaevidujete ako uchádzač o zamestnanie.",
-      "same_words": [
-        "úrad práce",
-        "ÚPSVaR",
-        "sociálny úrad",
-        "sociálny odbor"
-      ],
-      "domain": "úrad",
-      "note": "Nemecký článok opisuje Sozialamt, obecný sociálny úrad. Na Slovensku dávky vybavuje úrad práce, sociálnych vecí a rodiny. Časť sociálnych služieb zabezpečuje obec a samosprávny kraj.",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Sozialamt",
-        "title": "Sozialamt",
-        "revision": 28898,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
-      "id": "urok",
-      "term": "úrok",
-      "forms": [
-        "úroky",
-        "úroku",
-        "úrokov",
-        "úroková sadzba",
-        "úročenie"
-      ],
-      "easy": "Úrok sú peniaze za požičané peniaze.\nKeď si požičiate od banky, platíte banke úrok.\nKeď máte peniaze v banke, banka platí úrok vám.\nVýška úroku je napísaná v zmluve.\nHovorí sa jej úroková sadzba.",
-      "example": "Požičiate si 1000 eur.\nBanke vrátite 1000 eur a k tomu úrok.",
-      "same_words": [
-        "úroky",
-        "úroková sadzba",
-        "úročenie",
-        "úrok z omeškania"
-      ],
-      "domain": "peniaze",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Zins",
-        "title": "Zins",
-        "revision": 27290,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
-      "id": "ustava",
-      "term": "ústava",
-      "forms": [
-        "ústavy",
-        "v ústave",
-        "ústavný",
-        "Ústava Slovenskej republiky"
-      ],
-      "easy": "Ústava je najdôležitejší zákon štátu.\nV ústave sú základné pravidlá pre štát.\nSú tam práva a povinnosti občanov.\nJe tam napísané, ako sa volí vláda a parlament.\nVšetky ostatné zákony musia byť v súlade s ústavou.",
-      "same_words": [
-        "Ústava Slovenskej republiky",
-        "ústavný zákon",
-        "základný zákon",
-        "ústavné právo"
-      ],
-      "domain": "právo",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Verfassung",
-        "title": "Verfassung",
-        "revision": 36223,
         "fetched": "2026-09-29",
         "licence": "CC BY-SA 3.0 DE"
       },
@@ -4494,36 +4188,6 @@
       "contributor": "Claude (strojový preklad), athelas64"
     },
     {
-      "id": "vizum",
-      "term": "vízum",
-      "forms": [
-        "víza",
-        "vízum",
-        "vízová povinnosť",
-        "žiadosť o vízum"
-      ],
-      "easy": "Vízum je povolenie na vstup do cudzej krajiny.\nS vízom môžete v krajine byť alebo cez ňu cestovať.\nO vízum požiadate na veľvyslanectve tej krajiny.\nVízum vám dajú do cestovného pasu.\nDo mnohých krajín vízum nepotrebujete.",
-      "same_words": [
-        "víza",
-        "vstupné povolenie",
-        "vízová povinnosť",
-        "bezvízový styk"
-      ],
-      "domain": "právo",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Visum",
-        "title": "Visum",
-        "revision": 31804,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
       "id": "vkladna-knizka",
       "term": "vkladná knižka",
       "forms": [
@@ -4584,7 +4248,7 @@
     },
     {
       "id": "volba-postou",
-      "term": "Voľba poštou",
+      "term": "voľba poštou",
       "forms": [
         "voľby poštou",
         "hlasovanie poštou",
@@ -4613,40 +4277,8 @@
       "contributor": "Claude (strojový preklad), athelas64"
     },
     {
-      "id": "vseobecne-obchodne-podmienky",
-      "term": "Všeobecné obchodné podmienky",
-      "forms": [
-        "všeobecných obchodných podmienok",
-        "obchodné podmienky",
-        "podmienky používania",
-        "VOP"
-      ],
-      "easy": "Všeobecné obchodné podmienky sú pravidlá predajcu alebo firmy.\nPlatia, keď si niečo kupujete alebo objednávate.\nNapríklad pri nákupe cez internet alebo pri zmluve s bankou.\nSkrátene sa volajú VOP.\nSú pre vás záväzné, preto si ich prečítajte skôr, ako dáte súhlas.",
-      "example": "Pri nákupe cez internet zaškrtnete, že súhlasíte s obchodnými podmienkami.",
-      "same_words": [
-        "VOP",
-        "obchodné podmienky",
-        "podmienky používania",
-        "zmluvné podmienky"
-      ],
-      "domain": "právo",
-      "note": "Ak sú podmienky nezrozumiteľné, odporučte čitateľovi spotrebiteľskú poradňu. Skratku VOP čitateľ stretne na každom e-shope, preto ju heslo uvádza.",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Allgemeine_Gesch%C3%A4ftsbedingungen",
-        "title": "Allgemeine Geschäftsbedingungen",
-        "revision": 40614,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
       "id": "vydieranie",
-      "term": "Vydieranie",
+      "term": "vydieranie",
       "forms": [
         "vydierania",
         "vydierač",
@@ -4677,7 +4309,7 @@
     },
     {
       "id": "vyhostenie",
-      "term": "Vyhostenie",
+      "term": "vyhostenie",
       "forms": [
         "vyhostiť",
         "rozhodnutie o vyhostení",
@@ -4698,6 +4330,36 @@
         "url": "https://hurraki.de/wiki/Abschiebung_%28Recht_und_Gesetz%29",
         "title": "Abschiebung (Recht und Gesetz)",
         "revision": 37425,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "vizum",
+      "term": "vízum",
+      "forms": [
+        "víza",
+        "vízum",
+        "vízová povinnosť",
+        "žiadosť o vízum"
+      ],
+      "easy": "Vízum je povolenie na vstup do cudzej krajiny.\nS vízom môžete v krajine byť alebo cez ňu cestovať.\nO vízum požiadate na veľvyslanectve tej krajiny.\nVízum vám dajú do cestovného pasu.\nDo mnohých krajín vízum nepotrebujete.",
+      "same_words": [
+        "víza",
+        "vstupné povolenie",
+        "vízová povinnosť",
+        "bezvízový styk"
+      ],
+      "domain": "právo",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Visum",
+        "title": "Visum",
+        "revision": 31804,
         "fetched": "2026-09-29",
         "licence": "CC BY-SA 3.0 DE"
       },
@@ -4766,8 +4428,40 @@
       "contributor": "Claude (strojový preklad), athelas64"
     },
     {
+      "id": "vseobecne-obchodne-podmienky",
+      "term": "všeobecné obchodné podmienky",
+      "forms": [
+        "všeobecných obchodných podmienok",
+        "obchodné podmienky",
+        "podmienky používania",
+        "VOP"
+      ],
+      "easy": "Všeobecné obchodné podmienky sú pravidlá predajcu alebo firmy.\nPlatia, keď si niečo kupujete alebo objednávate.\nNapríklad pri nákupe cez internet alebo pri zmluve s bankou.\nSkrátene sa volajú VOP.\nSú pre vás záväzné, preto si ich prečítajte skôr, ako dáte súhlas.",
+      "example": "Pri nákupe cez internet zaškrtnete, že súhlasíte s obchodnými podmienkami.",
+      "same_words": [
+        "VOP",
+        "obchodné podmienky",
+        "podmienky používania",
+        "zmluvné podmienky"
+      ],
+      "domain": "právo",
+      "note": "Ak sú podmienky nezrozumiteľné, odporučte čitateľovi spotrebiteľskú poradňu. Skratku VOP čitateľ stretne na každom e-shope, preto ju heslo uvádza.",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Allgemeine_Gesch%C3%A4ftsbedingungen",
+        "title": "Allgemeine Geschäftsbedingungen",
+        "revision": 40614,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
       "id": "zamestnanecka-rada",
-      "term": "Zamestnanecká rada",
+      "term": "zamestnanecká rada",
       "forms": [
         "zamestnaneckej rady",
         "zamestnanecký dôverník",
@@ -4797,7 +4491,7 @@
     },
     {
       "id": "zamestnavatel",
-      "term": "Zamestnávateľ",
+      "term": "zamestnávateľ",
       "forms": [
         "zamestnávatelia",
         "zamestnávateľa",
@@ -4819,227 +4513,6 @@
         "url": "https://hurraki.de/wiki/Arbeitgeber",
         "title": "Arbeitgeber",
         "revision": 19493,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
-      "id": "zachranar",
-      "term": "záchranár",
-      "forms": [
-        "záchranári",
-        "záchranárka",
-        "zdravotnícky záchranár",
-        "záchranná služba",
-        "sanitka"
-      ],
-      "easy": "Záchranár je zdravotník, ktorý príde v sanitke.\nPríde, keď zavoláte na číslo 155 alebo 112.\nZáchranár poskytne prvú pomoc na mieste.\nPotom vás odvezie do nemocnice.\nZáchranári pracujú vo dne aj v noci.",
-      "example": "Pán Baláž spadol zo schodov a nemôže vstať.\nSusedka zavolá na 155.\nO chvíľu prídu záchranári.",
-      "same_words": [
-        "zdravotnícky záchranár",
-        "posádka sanitky",
-        "záchranná zdravotná služba"
-      ],
-      "domain": "zdravie",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Rettungssanit%C3%A4ter",
-        "title": "Rettungssanitäter",
-        "revision": 36172,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
-      "id": "zakaz-vychadzania",
-      "term": "Zákaz vychádzania",
-      "forms": [
-        "zákazu vychádzania",
-        "obmedzenie pohybu",
-        "obmedzenie slobody pohybu"
-      ],
-      "easy": "Zákaz vychádzania je príkaz zostať doma.\nVydáva ho vláda alebo úrad, napríklad počas epidémie.\nVon môžete ísť len z vážnych dôvodov.\nNapríklad do práce, k lekárovi alebo na nákup potravín.\nZákaz platí len na určený čas.",
-      "same_words": [
-        "obmedzenie pohybu",
-        "núdzový stav",
-        "lockdown"
-      ],
-      "domain": "úrad",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Ausgangssperre",
-        "title": "Ausgangssperre",
-        "revision": 36486,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
-      "id": "zakon",
-      "term": "zákon",
-      "forms": [
-        "zákony",
-        "zákona",
-        "podľa zákona",
-        "zákonný",
-        "zákonník"
-      ],
-      "easy": "Zákon je pravidlo, ktoré platí pre všetkých v krajine.\nZákony schvaľuje parlament.\nZákony hovoria, čo je dovolené a čo je zakázané.\nZákony hovoria aj o vašich právach.\nKto poruší zákon, môže dostať trest.",
-      "example": "Zákon hovorí, že deti musia chodiť do školy.\nZákon hovorí, že v aute sa musíte pripútať.",
-      "same_words": [
-        "zákonník",
-        "predpis",
-        "právny predpis",
-        "vyhláška",
-        "nariadenie",
-        "legislatíva"
-      ],
-      "domain": "právo",
-      "note": "Slovenský parlament je Národná rada Slovenskej republiky.",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Gesetz_%28Politik%29",
-        "title": "Gesetz (Politik)",
-        "revision": 25338,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
-      "id": "zakon-o-slobodnom-pristupe-k-informaciam",
-      "term": "zákon o slobodnom prístupe k informáciám",
-      "forms": [
-        "infozákon",
-        "zákon o slobode informácií",
-        "žiadosť o informácie",
-        "sloboda informácií"
-      ],
-      "easy": "Zákon o slobodnom prístupe k informáciám je zákon o vašom práve na informácie.\nÚrady vám musia dať informácie o tom, ako pracujú a rozhodujú.\nO informáciu môžete požiadať písomne, e-mailom alebo osobne.\nNemusíte vysvetľovať, prečo informáciu chcete.\nÚrad musí odpovedať v zákonnej lehote.",
-      "example": "Peter chce vedieť, koľko obec zaplatila za nové ihrisko.\nPošle obci žiadosť o informácie.\nObec mu musí odpovedať.",
-      "same_words": [
-        "infozákon",
-        "zákon o slobode informácií",
-        "žiadosť o informácie",
-        "infožiadosť",
-        "právo na informácie"
-      ],
-      "domain": "úrad",
-      "note": "Slovenský zákon o slobodnom prístupe k informáciám sa hovorovo volá infozákon. Lehoty a výnimky doplní autor podľa platného znenia.",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Informationsfreiheitsgesetz",
-        "title": "Informationsfreiheitsgesetz",
-        "revision": 25462,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
-      "id": "zalozna",
-      "term": "záložňa",
-      "forms": [
-        "záložne",
-        "v záložni",
-        "záloh",
-        "založiť vec"
-      ],
-      "easy": "Záložňa je obchod, kde si požičiate peniaze za vec.\nDo záložne prinesiete napríklad šperk alebo telefón.\nZáložňa vám dá peniaze a vec si nechá.\nKeď peniaze vrátite aj s poplatkom, vec dostanete späť.\nAk peniaze nevrátite včas, záložňa vec predá.",
-      "example": "Pán Rác potrebuje rýchlo 100 eur.\nZaloží v záložni svoje hodinky.\nO mesiac peniaze vráti a hodinky si vyzdvihne.",
-      "same_words": [
-        "záloh",
-        "založiť"
-      ],
-      "domain": "peniaze",
-      "note": "Pôžičky v záložni bývajú drahé. Písatelia by mali čitateľa upozorniť na poplatky a úroky.",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Pfandhaus",
-        "title": "Pfandhaus",
-        "revision": 13537,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
-      "id": "zarobkova-cinnost",
-      "term": "Zárobková činnosť",
-      "forms": [
-        "zárobkovej činnosti",
-        "samostatná zárobková činnosť",
-        "zárobkovo činný",
-        "SZČO"
-      ],
-      "easy": "Zárobková činnosť je práca, za ktorú dostávate peniaze.\nNapríklad zamestnanie, brigáda alebo podnikanie.\nÚrady sa pýtajú, či máte zárobkovú činnosť.\nOd toho závisia niektoré dávky a odvody.\nZárobok musíte úradu uviesť pravdivo.",
-      "example": "Na tlačive zaškrtnete, či vykonávate zárobkovú činnosť.",
-      "same_words": [
-        "práca",
-        "zamestnanie",
-        "samostatná zárobková činnosť",
-        "SZČO",
-        "živnosť"
-      ],
-      "domain": "práca",
-      "note": "Skratka SZČO znamená samostatne zárobkovo činná osoba, teda živnostník alebo podnikateľ. Čitateľ ju stretne na tlačivách.",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Erwerbst%C3%A4tigkeit",
-        "title": "Erwerbstätigkeit",
-        "revision": 29757,
-        "fetched": "2026-09-29",
-        "licence": "CC BY-SA 3.0 DE"
-      },
-      "status": "draft",
-      "origin": "machine-translated",
-      "added": "2026-09-29",
-      "contributor": "Claude (strojový preklad), athelas64"
-    },
-    {
-      "id": "zavislost",
-      "term": "závislosť",
-      "forms": [
-        "závislosti",
-        "závislý",
-        "závislá",
-        "závislí ľudia",
-        "liečba závislosti"
-      ],
-      "easy": "Závislosť je choroba.\nČlovek so závislosťou potrebuje nejakú vec veľmi často.\nKeď ju nemá, cíti sa veľmi zle.\nZávislosť môže byť od alkoholu, drog, cigariet, liekov alebo hier.\nZávislosť sa dá liečiť a je dobré požiadať o pomoc.",
-      "same_words": [
-        "závislý",
-        "závislá",
-        "návyk",
-        "návyková choroba"
-      ],
-      "domain": "zdravie",
-      "source": {
-        "name": "Hurraki - Lexikon für Leichte Sprache",
-        "url": "https://hurraki.de/wiki/Sucht",
-        "title": "Sucht",
-        "revision": 39039,
         "fetched": "2026-09-29",
         "licence": "CC BY-SA 3.0 DE"
       },
@@ -5144,7 +4617,7 @@
     },
     {
       "id": "zdravotne-postihnutie",
-      "term": "Zdravotné postihnutie",
+      "term": "zdravotné postihnutie",
       "forms": [
         "zdravotného postihnutia",
         "so zdravotným postihnutím",
@@ -5331,8 +4804,535 @@
       "contributor": "Claude (strojový preklad), athelas64"
     },
     {
+      "id": "zachranar",
+      "term": "záchranár",
+      "forms": [
+        "záchranári",
+        "záchranárka",
+        "zdravotnícky záchranár",
+        "záchranná služba",
+        "sanitka"
+      ],
+      "easy": "Záchranár je zdravotník, ktorý príde v sanitke.\nPríde, keď zavoláte na číslo 155 alebo 112.\nZáchranár poskytne prvú pomoc na mieste.\nPotom vás odvezie do nemocnice.\nZáchranári pracujú vo dne aj v noci.",
+      "example": "Pán Baláž spadol zo schodov a nemôže vstať.\nSusedka zavolá na 155.\nO chvíľu prídu záchranári.",
+      "same_words": [
+        "zdravotnícky záchranár",
+        "posádka sanitky",
+        "záchranná zdravotná služba"
+      ],
+      "domain": "zdravie",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Rettungssanit%C3%A4ter",
+        "title": "Rettungssanitäter",
+        "revision": 36172,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "zakaz-vychadzania",
+      "term": "zákaz vychádzania",
+      "forms": [
+        "zákazu vychádzania",
+        "obmedzenie pohybu",
+        "obmedzenie slobody pohybu"
+      ],
+      "easy": "Zákaz vychádzania je príkaz zostať doma.\nVydáva ho vláda alebo úrad, napríklad počas epidémie.\nVon môžete ísť len z vážnych dôvodov.\nNapríklad do práce, k lekárovi alebo na nákup potravín.\nZákaz platí len na určený čas.",
+      "same_words": [
+        "obmedzenie pohybu",
+        "núdzový stav",
+        "lockdown"
+      ],
+      "domain": "úrad",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Ausgangssperre",
+        "title": "Ausgangssperre",
+        "revision": 36486,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "zakon",
+      "term": "zákon",
+      "forms": [
+        "zákony",
+        "zákona",
+        "podľa zákona",
+        "zákonný",
+        "zákonník"
+      ],
+      "easy": "Zákon je pravidlo, ktoré platí pre všetkých v krajine.\nZákony schvaľuje parlament.\nZákony hovoria, čo je dovolené a čo je zakázané.\nZákony hovoria aj o vašich právach.\nKto poruší zákon, môže dostať trest.",
+      "example": "Zákon hovorí, že deti musia chodiť do školy.\nZákon hovorí, že v aute sa musíte pripútať.",
+      "same_words": [
+        "zákonník",
+        "predpis",
+        "právny predpis",
+        "vyhláška",
+        "nariadenie",
+        "legislatíva"
+      ],
+      "domain": "právo",
+      "note": "Slovenský parlament je Národná rada Slovenskej republiky.",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Gesetz_%28Politik%29",
+        "title": "Gesetz (Politik)",
+        "revision": 25338,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "zakon-o-slobodnom-pristupe-k-informaciam",
+      "term": "zákon o slobodnom prístupe k informáciám",
+      "forms": [
+        "infozákon",
+        "zákon o slobode informácií",
+        "žiadosť o informácie",
+        "sloboda informácií"
+      ],
+      "easy": "Zákon o slobodnom prístupe k informáciám je zákon o vašom práve na informácie.\nÚrady vám musia dať informácie o tom, ako pracujú a rozhodujú.\nO informáciu môžete požiadať písomne, e-mailom alebo osobne.\nNemusíte vysvetľovať, prečo informáciu chcete.\nÚrad musí odpovedať v zákonnej lehote.",
+      "example": "Peter chce vedieť, koľko obec zaplatila za nové ihrisko.\nPošle obci žiadosť o informácie.\nObec mu musí odpovedať.",
+      "same_words": [
+        "infozákon",
+        "zákon o slobode informácií",
+        "žiadosť o informácie",
+        "infožiadosť",
+        "právo na informácie"
+      ],
+      "domain": "úrad",
+      "note": "Slovenský zákon o slobodnom prístupe k informáciám sa hovorovo volá infozákon. Lehoty a výnimky doplní autor podľa platného znenia.",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Informationsfreiheitsgesetz",
+        "title": "Informationsfreiheitsgesetz",
+        "revision": 25462,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "zalozna",
+      "term": "záložňa",
+      "forms": [
+        "záložne",
+        "v záložni",
+        "záloh",
+        "založiť vec"
+      ],
+      "easy": "Záložňa je obchod, kde si požičiate peniaze za vec.\nDo záložne prinesiete napríklad šperk alebo telefón.\nZáložňa vám dá peniaze a vec si nechá.\nKeď peniaze vrátite aj s poplatkom, vec dostanete späť.\nAk peniaze nevrátite včas, záložňa vec predá.",
+      "example": "Pán Rác potrebuje rýchlo 100 eur.\nZaloží v záložni svoje hodinky.\nO mesiac peniaze vráti a hodinky si vyzdvihne.",
+      "same_words": [
+        "záloh",
+        "založiť"
+      ],
+      "domain": "peniaze",
+      "note": "Pôžičky v záložni bývajú drahé. Písatelia by mali čitateľa upozorniť na poplatky a úroky.",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Pfandhaus",
+        "title": "Pfandhaus",
+        "revision": 13537,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "zarobkova-cinnost",
+      "term": "zárobková činnosť",
+      "forms": [
+        "zárobkovej činnosti",
+        "samostatná zárobková činnosť",
+        "zárobkovo činný",
+        "SZČO"
+      ],
+      "easy": "Zárobková činnosť je práca, za ktorú dostávate peniaze.\nNapríklad zamestnanie, brigáda alebo podnikanie.\nÚrady sa pýtajú, či máte zárobkovú činnosť.\nOd toho závisia niektoré dávky a odvody.\nZárobok musíte úradu uviesť pravdivo.",
+      "example": "Na tlačive zaškrtnete, či vykonávate zárobkovú činnosť.",
+      "same_words": [
+        "práca",
+        "zamestnanie",
+        "samostatná zárobková činnosť",
+        "SZČO",
+        "živnosť"
+      ],
+      "domain": "práca",
+      "note": "Skratka SZČO znamená samostatne zárobkovo činná osoba, teda živnostník alebo podnikateľ. Čitateľ ju stretne na tlačivách.",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Erwerbst%C3%A4tigkeit",
+        "title": "Erwerbstätigkeit",
+        "revision": 29757,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "zavislost",
+      "term": "závislosť",
+      "forms": [
+        "závislosti",
+        "závislý",
+        "závislá",
+        "závislí ľudia",
+        "liečba závislosti"
+      ],
+      "easy": "Závislosť je choroba.\nČlovek so závislosťou potrebuje nejakú vec veľmi často.\nKeď ju nemá, cíti sa veľmi zle.\nZávislosť môže byť od alkoholu, drog, cigariet, liekov alebo hier.\nZávislosť sa dá liečiť a je dobré požiadať o pomoc.",
+      "same_words": [
+        "závislý",
+        "závislá",
+        "návyk",
+        "návyková choroba"
+      ],
+      "domain": "zdravie",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Sucht",
+        "title": "Sucht",
+        "revision": 39039,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "urad",
+      "term": "úrad",
+      "forms": [
+        "úrady",
+        "úradu",
+        "na úrade",
+        "úradník",
+        "úradníčka"
+      ],
+      "easy": "Úrad je organizácia štátu, mesta alebo obce.\nÚrad vybavuje veci pre občanov.\nNapríklad doklady, dávky, dane alebo povolenia.\nNa úrad idete osobne alebo píšete cez internet.\nÚradník je človek, ktorý na úrade pracuje.",
+      "example": "Nový občiansky preukaz vybavíte na oddelení dokladov na polícii.\nSociálne dávky vybavíte na úrade práce.",
+      "same_words": [
+        "štátny orgán",
+        "verejná správa",
+        "inštitúcia",
+        "obecný úrad",
+        "mestský úrad",
+        "úrad práce"
+      ],
+      "domain": "úrad",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Beh%C3%B6rde",
+        "title": "Behörde",
+        "revision": 34792,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "urad-prace-socialnych-veci-a-rodiny",
+      "term": "úrad práce, sociálnych vecí a rodiny",
+      "forms": [
+        "úrad práce",
+        "na úrade práce",
+        "úrady práce",
+        "úradu práce, sociálnych vecí a rodiny"
+      ],
+      "easy": "Úrad práce, sociálnych vecí a rodiny je štátny úrad.\nĽudia mu hovoria aj úrad práce.\nPomáha ľuďom, ktorí nemajú prácu.\nPomáha ľuďom, ktorí majú málo peňazí.\nNa tomto úrade žiadate o sociálne dávky.",
+      "example": "Stratili ste prácu.\nIdete na úrad práce.\nTam sa zaevidujete ako uchádzač o zamestnanie.",
+      "same_words": [
+        "úrad práce",
+        "ÚPSVaR",
+        "sociálny úrad",
+        "sociálny odbor"
+      ],
+      "domain": "úrad",
+      "note": "Nemecký článok opisuje Sozialamt, obecný sociálny úrad. Na Slovensku dávky vybavuje úrad práce, sociálnych vecí a rodiny. Časť sociálnych služieb zabezpečuje obec a samosprávny kraj.",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Sozialamt",
+        "title": "Sozialamt",
+        "revision": 28898,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "urok",
+      "term": "úrok",
+      "forms": [
+        "úroky",
+        "úroku",
+        "úrokov",
+        "úroková sadzba",
+        "úročenie"
+      ],
+      "easy": "Úrok sú peniaze za požičané peniaze.\nKeď si požičiate od banky, platíte banke úrok.\nKeď máte peniaze v banke, banka platí úrok vám.\nVýška úroku je napísaná v zmluve.\nHovorí sa jej úroková sadzba.",
+      "example": "Požičiate si 1000 eur.\nBanke vrátite 1000 eur a k tomu úrok.",
+      "same_words": [
+        "úroky",
+        "úroková sadzba",
+        "úročenie",
+        "úrok z omeškania"
+      ],
+      "domain": "peniaze",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Zins",
+        "title": "Zins",
+        "revision": 27290,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "ustava",
+      "term": "ústava",
+      "forms": [
+        "ústavy",
+        "v ústave",
+        "ústavný",
+        "Ústava Slovenskej republiky"
+      ],
+      "easy": "Ústava je najdôležitejší zákon štátu.\nV ústave sú základné pravidlá pre štát.\nSú tam práva a povinnosti občanov.\nJe tam napísané, ako sa volí vláda a parlament.\nVšetky ostatné zákony musia byť v súlade s ústavou.",
+      "same_words": [
+        "Ústava Slovenskej republiky",
+        "ústavný zákon",
+        "základný zákon",
+        "ústavné právo"
+      ],
+      "domain": "právo",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Verfassung",
+        "title": "Verfassung",
+        "revision": 36223,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "ucast-na-zivote-spolocnosti",
+      "term": "účasť na živote spoločnosti",
+      "forms": [
+        "účasti na živote spoločnosti",
+        "plná účasť",
+        "spoločenská účasť",
+        "začlenenie"
+      ],
+      "easy": "Účasť na živote spoločnosti znamená, že sa môžete zapojiť do všetkého.\nDo práce, do školy, do kultúry, do športu aj do volieb.\nĽudia so zdravotným postihnutím na to majú právo.\nPreto nesmú byť v ceste bariéry.\nŠtát a obce majú účasť podporovať.",
+      "same_words": [
+        "participácia",
+        "začlenenie",
+        "inklúzia",
+        "zapojenie",
+        "spoluúčasť"
+      ],
+      "domain": "sociálne služby",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Teilhabe",
+        "title": "Teilhabe",
+        "revision": 22204,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "ludska-dostojnost",
+      "term": "ľudská dôstojnosť",
+      "forms": [
+        "ľudskej dôstojnosti",
+        "dôstojnosť",
+        "dôstojnosti"
+      ],
+      "easy": "Ľudská dôstojnosť znamená, že každý človek má hodnotu.\nKaždý človek si zaslúži úctu.\nNezáleží na tom, či je chudobný, chorý alebo starý.\nNikto vás nesmie ponižovať ani s vami zle zaobchádzať.\nÚrady a nemocnice musia vašu dôstojnosť rešpektovať.",
+      "example": "Opatrovateľka zaklope, kým vojde do vašej izby.\nTak rešpektuje vašu dôstojnosť.",
+      "same_words": [
+        "dôstojnosť"
+      ],
+      "domain": "právo",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Menschenw%C3%BCrde",
+        "title": "Menschenwürde",
+        "revision": 35420,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "ludske-prava",
+      "term": "ľudské práva",
+      "forms": [
+        "ľudských práv",
+        "ľudskými právami",
+        "základné práva"
+      ],
+      "easy": "Ľudské práva sú práva, ktoré má každý človek.\nMáte ich od narodenia.\nNikto vám ich nemôže vziať.\nĽudia so zdravotným postihnutím majú rovnaké práva ako ostatní.\nĽudské práva chráni ústava a medzinárodné zmluvy.",
+      "example": "Každý človek má právo na život.\nKaždý človek má právo na vzdelanie.\nKaždý človek má právo povedať svoj názor.",
+      "same_words": [
+        "základné práva",
+        "základné ľudské práva a slobody"
+      ],
+      "domain": "právo",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Menschenrechte",
+        "title": "Menschenrechte",
+        "revision": 41686,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "specialna-pedagogika",
+      "term": "špeciálna pedagogika",
+      "forms": [
+        "špeciálnej pedagogiky",
+        "špeciálnu pedagogiku",
+        "špeciálny pedagóg",
+        "špeciálni pedagógovia"
+      ],
+      "easy": "Špeciálna pedagogika je odbor o učení detí s osobitnými potrebami.\nUčitelia v tomto odbore majú osobitné vzdelanie.\nPomáhajú deťom s ťažkosťami pri učení.\nPomáhajú aj deťom so zdravotným postihnutím.\nCieľ je, aby sa každé dieťa mohlo dobre učiť.",
+      "example": "V škole pracuje špeciálna pedagogička.\nPomáha vášmu dieťaťu s čítaním.",
+      "same_words": [
+        "špeciálny pedagóg",
+        "špeciálna škola",
+        "špeciálnopedagogická podpora",
+        "školský špeciálny pedagóg"
+      ],
+      "domain": "vzdelávanie",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Sonderp%C3%A4dagogik",
+        "title": "Sonderpädagogik",
+        "revision": 43298,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "statne-obcianstvo",
+      "term": "štátne občianstvo",
+      "forms": [
+        "štátneho občianstva",
+        "štátnom občianstve",
+        "štátny občan",
+        "štátna občianka"
+      ],
+      "easy": "Štátne občianstvo je vzťah medzi vami a štátom.\nČlovek so štátnym občianstvom je občan.\nObčan má práva, napríklad právo voliť.\nObčan má aj povinnosti, napríklad dodržiavať zákony.\nŠtátne občianstvo dostanete narodením alebo na žiadosť.",
+      "same_words": [
+        "občianstvo",
+        "štátna príslušnosť",
+        "občan",
+        "občianka",
+        "osvedčenie o štátnom občianstve"
+      ],
+      "domain": "právo",
+      "note": "Podmienky udelenia štátneho občianstva upravuje slovenský zákon. Nepíšte lehoty bez overenia.",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Staatsb%C3%BCrgerschaft",
+        "title": "Staatsbürgerschaft",
+        "revision": 33307,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
+      "id": "statny-jazyk",
+      "term": "štátny jazyk",
+      "forms": [
+        "štátneho jazyka",
+        "úradný jazyk",
+        "úradná reč"
+      ],
+      "easy": "Štátny jazyk je jazyk, ktorý používajú úrady.\nNa Slovensku je štátny jazyk slovenčina.\nÚrady s vami hovoria a píšu po slovensky.\nV niektorých obciach môžete na úrade použiť aj jazyk národnostnej menšiny.\nAk nerozumiete po slovensky, požiadajte o tlmočníka.",
+      "same_words": [
+        "úradný jazyk",
+        "slovenčina",
+        "slovenský jazyk"
+      ],
+      "domain": "úrad",
+      "note": "Nemecký článok zdôrazňuje, že úradná reč je ťažko zrozumiteľná. V slovenskom hesle to nahradzuje právo požiadať o tlmočníka a jazyky menšín.",
+      "source": {
+        "name": "Hurraki - Lexikon für Leichte Sprache",
+        "url": "https://hurraki.de/wiki/Amtssprache",
+        "title": "Amtssprache",
+        "revision": 27182,
+        "fetched": "2026-09-29",
+        "licence": "CC BY-SA 3.0 DE"
+      },
+      "status": "draft",
+      "origin": "machine-translated",
+      "added": "2026-09-29",
+      "contributor": "Claude (strojový preklad), athelas64"
+    },
+    {
       "id": "ziadost-o-azyl",
-      "term": "Žiadosť o azyl",
+      "term": "žiadosť o azyl",
       "forms": [
         "žiadosti o azyl",
         "azyl",

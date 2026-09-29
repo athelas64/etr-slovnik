@@ -4,7 +4,7 @@
   "schema": "schema/slovnik.schema.json",
   "files": {
     "slovniky/hurraki-sk.json": {
-      "sha256": "84332705d53c2eacea940d49415820934f3e8a2a578d5fd3717870de408a1e22",
+      "sha256": "be82954f1dea7cd1abd550acdafda7e645c7c672e2277676cf4e925a0f26826d",
       "bytes": 215560,
       "entries": 172,
       "version": "2026-09-29.1",
@@ -22,5 +22,5 @@
       "licence": "CC BY 4.0"
     }
   },
-  "updated": "2026-09-29T05:34:09Z"
+  "updated": "2026-09-29T05:34:53Z"
 }
