@@ -1,0 +1,38 @@
+name: Validate dictionaries
+
+on:
+  pull_request:
+    paths: ["slovniky/**", "schema/**", "scripts/**"]
+  push:
+    branches: [main]
+    paths: ["slovniky/**", "schema/**", "scripts/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install jsonschema
+      - name: Validate schema and easy-text rules
+        run: python scripts/validate.py slovniky/*.json
+      - name: Rebuild manifest.json
+        run: python scripts/build_manifest.py
+      - name: Commit manifest on main
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          if git diff --quiet -- manifest.json; then
+            echo "manifest unchanged"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add manifest.json
+            git commit -m "manifest: $(python -c "import json;print(json.load(open('manifest.json'))['version'])") [skip ci]"
+            git push
+          fi

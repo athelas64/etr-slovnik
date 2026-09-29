@@ -1,0 +1,85 @@
+name: Navrhnúť slovo
+description: Navrhnite ťažké slovo a jeho vysvetlenie v ľahko čitateľnom jazyku.
+title: "Návrh slova: "
+labels: ["návrh slova"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ďakujeme. Vysvetlenie píšte podľa pravidiel ľahko čitateľného textu: prvá veta povie, čo slovo znamená, každá veta na novom riadku, najviac 15 slov vo vete, bez zátvoriek, lomiek a skratiek.
+  - type: input
+    id: term
+    attributes:
+      label: Slovo alebo výraz
+      description: Tak, ako ho čitateľ stretne na tlačive, v liste alebo na úrade.
+      placeholder: spôsobilosť na právne úkony
+    validations:
+      required: true
+  - type: textarea
+    id: easy
+    attributes:
+      label: Vysvetlenie v ľahko čitateľnom jazyku
+      description: Jedna veta na riadok. Najviac 5 viet.
+      placeholder: |
+        Niektorým ľuďom súd obmedzí rozhodovanie o vlastných veciach.
+        Znamená to, že nemôžu sami podpisovať dôležité zmluvy.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Príklad zo života (nepovinné)
+      placeholder: Napríklad nemôžu sami predať byt.
+  - type: input
+    id: forms
+    attributes:
+      label: Ďalšie tvary a varianty (nepovinné)
+      description: Oddeľte čiarkou. Množné číslo, pády, skratky, synonymá.
+      placeholder: pozbavenie spôsobilosti, obmedzenie spôsobilosti
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Oblasť
+      options:
+        - úrad
+        - právo
+        - peniaze
+        - zdravie
+        - sociálne služby
+        - práca
+        - bývanie
+        - vzdelávanie
+        - doprava
+        - digitál
+        - rodina
+        - ostatné
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Odkiaľ vysvetlenie pochádza
+      description: Adresa stránky, názov dokumentu alebo „vlastný text“.
+    validations:
+      required: true
+  - type: dropdown
+    id: checked
+    attributes:
+      label: Kto vysvetlenie overil
+      options:
+        - nikto, je to návrh
+        - odborník na ľahko čitateľný text
+        - skupina čitateľov s mentálnym znevýhodnením
+    validations:
+      required: true
+  - type: input
+    id: contributor
+    attributes:
+      label: Vaša organizácia alebo meno (ako má byť uvedené v poli contributor)
+  - type: checkboxes
+    id: licence
+    attributes:
+      label: Licencia
+      options:
+        - label: Súhlasím so zverejnením vysvetlenia pod licenciou súboru (teraz CC BY 4.0).
+          required: true

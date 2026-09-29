@@ -1,0 +1,524 @@
+{
+  "source": {
+    "name": "Úrad komisára pre osoby so zdravotným postihnutím",
+    "base": "https://www.komisar.sk",
+    "fetched": "2026-09-29",
+    "pages_with_etr": [
+      "https://www.komisar.sk",
+      "https://www.komisar.sk/15-rokov-s-dohovorom",
+      "https://www.komisar.sk/cinnosti-komisara",
+      "https://www.komisar.sk/gdpr",
+      "https://www.komisar.sk/kontakt",
+      "https://www.komisar.sk/mapa-stranok",
+      "https://www.komisar.sk/monitoring",
+      "https://www.komisar.sk/monitoring-psych",
+      "https://www.komisar.sk/monitoring-zss",
+      "https://www.komisar.sk/npm",
+      "https://www.komisar.sk/o-urade",
+      "https://www.komisar.sk/osobne-podanie",
+      "https://www.komisar.sk/podcast",
+      "https://www.komisar.sk/podnet",
+      "https://www.komisar.sk/podnety",
+      "https://www.komisar.sk/pre-verejnost",
+      "https://www.komisar.sk/pribehy",
+      "https://www.komisar.sk/prieskumy",
+      "https://www.komisar.sk/pristupnost",
+      "https://www.komisar.sk/publikacie",
+      "https://www.komisar.sk/rezervacia",
+      "https://www.komisar.sk/stanoviska",
+      "https://www.komisar.sk/v-mediach",
+      "https://www.komisar.sk/zverejnovanie"
+    ],
+    "note": "Standard and easy-to-read texts as published on the site (data-standard / data-etr). Raw material for dictionary entries; every entry is drafted and reviewed by a person."
+  },
+  "pairs": [
+    {
+      "page": "https://www.komisar.sk",
+      "page_title": "Úrad komisára pre osoby so zdravotným postihnutím",
+      "heading_standard": "Podporujeme\nPresadzujeme\nChránime\nPodporujeme, presadzujeme a chránime\npráva ľudí\nso zdravotným postihnutím",
+      "heading_etr": "Presadzujeme vaše práva.",
+      "standard": "",
+      "etr": "Sme úrad. Pomáhame ľuďom.\nAk máte zdravotné postihnutie, sme tu pre vás.\nPomoc je zadarmo. Pomoc je dôverná.\nMôžete nám napísať podnet. Môžete nám zavolať. Môžete prísť osobne."
+    },
+    {
+      "page": "https://www.komisar.sk",
+      "page_title": "Úrad komisára pre osoby so zdravotným postihnutím",
+      "heading_standard": "Čo robí komisár pre osoby so zdravotným postihnutím",
+      "heading_etr": "Čo robíme",
+      "standard": "Komisár sa podieľa na ochrane práv osôb so zdravotným postihnutím, podporou\na presadzovaním práv priznaných osobe so zdravotným postihnutím medzinárodnými\nzmluvami, ktorými je Slovenská republika viazaná (Dohovor OSN o právach osôb\nso zdravotným postihnutím a Opčný protokol prijaté Valným zhromaždením OSN).",
+      "etr": "Chránime práva ľudí so zdravotným postihnutím.\nPomáhame, keď s vami niekto zaobchádza nespravodlivo.\nNaša pomoc je zadarmo a dôverná."
+    },
+    {
+      "page": "https://www.komisar.sk/15-rokov-s-dohovorom",
+      "page_title": "15 rokov s Dohovorom OSN o právach osôb so ZP",
+      "heading_standard": "Čo môžete urobiť vy",
+      "heading_etr": "Čo môžete urobiť vy",
+      "standard": "",
+      "etr": "Aj vy môžete pomôcť, aby sa práva dodržiavali.\nAk niekto porušuje vaše práva, podajte podnet.\nPodnet môžete podať priamo na tomto webe.\nMôžete si prečítať príbehy iných ľudí.\nMôžete povedať ostatným, že úrad existuje a vie pomôcť."
+    },
+    {
+      "page": "https://www.komisar.sk/cinnosti-komisara",
+      "page_title": "Činnosti komisára — Úrad komisára",
+      "heading_standard": "Činnosti komisára",
+      "heading_etr": "Čo robíme",
+      "standard": "Komisár sa podieľa na ochrane práv osôb so zdravotným postihnutím, podporou\na presadzovaním práv priznaných osobe so zdravotným postihnutím medzinárodnými\nzmluvami, ktorými je Slovenská republika viazaná (Dohovor OSN o právach osôb\nso zdravotným postihnutím a Opčný protokol prijaté Valným zhromaždením OSN).",
+      "etr": "Komisár pre osoby so zdravotným postihnutím chráni vaše práva.\nPomáha ľuďom, ktorí majú zdravotné postihnutie.\nKomisára zriadil zákon v roku 2015.\nÚrad komisára je pracovisko, ktoré komisárovi pomáha s prácou."
+    },
+    {
+      "page": "https://www.komisar.sk/cinnosti-komisara",
+      "page_title": "Činnosti komisára — Úrad komisára",
+      "heading_standard": "Kompetencie komisára",
+      "heading_etr": "Čo komisár robí",
+      "standard": "Postavenie, pôsobnosť komisára pre osoby so zdravotným postihnutím, podmienky výkonu\ntejto funkcie a zriadenie Úradu komisára pre osoby so zdravotným postihnutím upravuje\nzákon č. 176/2015 Z. z. o komisárovi pre deti a o komisárovi pre osoby so zdravotným\npostihnutím a o zmene a doplnení niektorých zákonov (ďalej len „zákon\"), ktorý nadobudol\núčinnosť 1. septembra 2015. Tento zákon predovšetkým vytvoril inštitucionálne\nzabezpečenie verejnej ochrany práv osôb so zdravotným postihnutím.",
+      "etr": "Komisár skúma, či niekto porušil vaše práva.\nMôžete mu poslať podnet.\nPodnet je správa o tom, že niekto porušil práva.\nKomisár môže vec preskúmať aj sám od seba.\nNavštevuje miesta, kde ľudia so zdravotným postihnutím žijú.\nZisťuje, či sa tam s ľuďmi zaobchádza dobre.\nAk zistí porušenie práv, navrhne, čo treba napraviť."
+    },
+    {
+      "page": "https://www.komisar.sk/cinnosti-komisara",
+      "page_title": "Činnosti komisára — Úrad komisára",
+      "heading_standard": "Referáty úradu",
+      "heading_etr": "Oddelenia úradu",
+      "standard": "",
+      "etr": "Úrad je rozdelený na oddelenia. Volajú sa referáty.\nKaždý referát sa venuje inej oblasti práv.\nJeden referát rieši peňažné príspevky pre ľudí s postihnutím.\nIný referát rieši zdravotnú starostlivosť.\nĎalší referát rieši bezbariérové budovy a prácu.\nAk neviete, komu napísať, napíšte nám. Nájdeme správneho človeka."
+    },
+    {
+      "page": "https://www.komisar.sk/cinnosti-komisara",
+      "page_title": "Činnosti komisára — Úrad komisára",
+      "heading_standard": "Potrebujete pomoc alebo poradenstvo?",
+      "heading_etr": "Potrebujete pomoc?",
+      "standard": "",
+      "etr": "Každý sa môže obrátiť na komisára.\nMôžete nám napísať alebo zavolať.\nPoradíme vám zadarmo.\nVáš podnet je dôverný.\nPodnet môžete podať aj bez uvedenia mena."
+    },
+    {
+      "page": "https://www.komisar.sk/gdpr",
+      "page_title": "Ochrana osobných údajov — Úrad komisára",
+      "heading_standard": "Ochrana osobných údajov",
+      "heading_etr": "Ako chránime vaše údaje",
+      "standard": "Úrad komisára pre osoby so zdravotným postihnutím pristupuje k Vašim osobným údajom\nzodpovedne a v súlade s nariadením GDPR a zákonom č. 18/2018 Z. z. o ochrane osobných údajov.",
+      "etr": "Osobné údaje sú informácie o vás. Napríklad meno alebo adresa.\nVaše údaje spracúvame, keď nás kontaktujete alebo podáte podnet.\nRobíme to preto, lebo nám to prikazuje zákon č. 176/2015 Z. z.\nNepotrebujeme na to váš súhlas.\nÚdaje používame len na vybavenie vašej veci.\nMáte právo sa opýtať, aké údaje o vás máme.\nMáte právo žiadať ich opravu alebo vymazanie.\nNapísať nám môžete na dpo@komisar.sk."
+    },
+    {
+      "page": "https://www.komisar.sk/kontakt",
+      "page_title": "Kontakt — Úrad komisára",
+      "heading_standard": "Úrad komisára pre osoby so zdravotným postihnutím",
+      "heading_etr": "Sme tu pre vás",
+      "standard": "",
+      "etr": "Toto je Úrad komisára pre osoby so zdravotným postihnutím.\nKomisár pomáha ľuďom so zdravotným postihnutím.\nMôžete nám napísať, zavolať alebo prísť osobne."
+    },
+    {
+      "page": "https://www.komisar.sk/kontakt",
+      "page_title": "Kontakt — Úrad komisára",
+      "heading_standard": "Kontakt pre verejnosť",
+      "heading_etr": "Ako nás kontaktovať",
+      "standard": "",
+      "etr": "Naša adresa je Račianska 153, Bratislava.\nBudova sa volá Reding Tower 2.\nZavolať nám môžete na číslo 02 20 42 03 09.\nNapísať nám môžete na sekretariat@komisar.sk.\nV pondelok a stredu sme tu od 8:00 do 17:00.\nV utorok a štvrtok sme tu od 8:00 do 16:00.\nV piatok sme tu od 8:00 do 14:00."
+    },
+    {
+      "page": "https://www.komisar.sk/kontakt",
+      "page_title": "Kontakt — Úrad komisára",
+      "heading_standard": "Osobné podanie podnetu",
+      "heading_etr": "Keď chcete prísť osobne",
+      "standard": "",
+      "etr": "Podnet je správa o tom, že niekto porušil práva.\nPodnet môžete priniesť k nám na úrad.\nPrísť môžete kedykoľvek počas úradných hodín.\nTermín si viete dohodnúť aj vopred."
+    },
+    {
+      "page": "https://www.komisar.sk/kontakt",
+      "page_title": "Kontakt — Úrad komisára",
+      "heading_standard": "Bezbariérový prístup",
+      "heading_etr": "Bezbariérový prístup",
+      "standard": "",
+      "etr": "Do budovy sa dostanete aj na vozíku.\nPred budovou sú vyhradené parkovacie miesta. Parkovanie je zadarmo.\nZaparkovať sa dá aj v garáži za budovou. Aj tá je zadarmo.\nNa prízemí vás privíta pracovník informačnej služby.\nOdprevadí vás až do kancelárie úradu na 2. poschodí.\nBezbariérová toaleta je na prízemí aj na poschodí úradu."
+    },
+    {
+      "page": "https://www.komisar.sk/kontakt",
+      "page_title": "Kontakt — Úrad komisára",
+      "heading_standard": "Ako sa k nám dostať",
+      "heading_etr": "Ako sa k nám dostať",
+      "standard": "",
+      "etr": "Úrad je na Račianskej ulici v Bratislave.\nOproti budove je zastávka Malokrasňanská.\nNa zastávke zastavuje električka.\nAktuálne spojenie si overte vo vyhľadávači spojení."
+    },
+    {
+      "page": "https://www.komisar.sk/mapa-stranok",
+      "page_title": "Mapa stránok — Úrad komisára",
+      "heading_standard": "Mapa stránok",
+      "heading_etr": "Mapa stránok",
+      "standard": "Kompletný hierarchický prehľad obsahu webového sídla Úradu komisára.\nPoužite klávesovú navigáciu Tab a Enter na pohyb medzi odkazmi.",
+      "etr": "Mapa stránok je zoznam všetkých stránok tohto webu.\nPomôže vám nájsť, čo hľadáte.\nKliknite na názov a stránka sa otvorí."
+    },
+    {
+      "page": "https://www.komisar.sk/monitoring",
+      "page_title": "Monitorovanie — Úrad komisára",
+      "heading_standard": "Monitorovanie",
+      "heading_etr": "Monitorovanie",
+      "standard": "Monitorovaním zisťujeme aktuálny stav dodržiavania práv osôb so zdravotným postihnutím\nvo vybraných zariadeniach sociálnych služieb a zdravotníckych zariadeniach, konštatujeme\nporušenia práv osôb so zdravotným postihnutím a navrhujeme prijatie konkrétnych opatrení\nna zlepšenie situácie.",
+      "etr": "Monitorovanie znamená, že chodíme do zariadení na návštevy.\nZisťujeme, či sa tam dodržiavajú práva ľudí so zdravotným postihnutím.\nAk nájdeme problém, navrhneme, čo treba zlepšiť."
+    },
+    {
+      "page": "https://www.komisar.sk/monitoring",
+      "page_title": "Monitorovanie — Úrad komisára",
+      "heading_standard": "Monitorovacie návštevy podľa CRPD",
+      "heading_etr": "Návštevy podľa Dohovoru OSN",
+      "standard": "Návštevy zariadení sociálnych služieb a zdravotníckych zariadení, pri ktorých overujeme\ndodržiavanie práv osôb so zdravotným postihnutím podľa Dohovoru OSN o právach osôb\nso zdravotným postihnutím.",
+      "etr": "CRPD je skratka pre Dohovor OSN o právach osôb so zdravotným postihnutím.\nV tomto dohovore je napísané, aké práva máte.\nChodíme do zariadení a zisťujeme, či sa tieto práva dodržiavajú.\nTu nájdete správy z týchto návštev."
+    },
+    {
+      "page": "https://www.komisar.sk/monitoring",
+      "page_title": "Monitorovanie — Úrad komisára",
+      "heading_standard": "Prieskumy a výskumy",
+      "heading_etr": "Prieskumy",
+      "standard": "Komisár vykonáva aj prieskumy a výskumy zamerané na dodržiavanie práv osôb so zdravotným\npostihnutím v praxi — napríklad architektonickú prístupnosť volebných miestností či\npostavenie osôb pozbavených spôsobilosti na právne úkony.",
+      "etr": "Robíme aj prieskumy.\nV prieskume zisťujeme, ako sa práva dodržiavajú v praxi.\nZisťovali sme napríklad, či sa dá vojsť do volebných miestností s vozíkom.\nVýsledky prieskumov nájdete tu."
+    },
+    {
+      "page": "https://www.komisar.sk/monitoring-psych",
+      "page_title": "Psychiatrické zariadenia — Úrad komisára",
+      "heading_standard": "Psychiatrické zariadenia",
+      "heading_etr": "Návštevy v psychiatrických zariadeniach",
+      "standard": "Psychiatrické nemocnice, kliniky a liečebne (CRPD).",
+      "etr": "Psychiatrické zariadenia sú nemocnice pre ľudí s duševnými ťažkosťami.\nChodíme do nich na návštevy.\nSledujeme, či sa tam dodržiavajú práva pacientov.\nPacienti majú rovnaké práva ako všetci ostatní ľudia.\nPo návšteve napíšeme správu o tom, čo sme zistili.\nAk ste pacient a niečo vás trápi, ozvite sa nám."
+    },
+    {
+      "page": "https://www.komisar.sk/monitoring-zss",
+      "page_title": "Zariadenia sociálnych služieb — Úrad komisára",
+      "heading_standard": "Zariadenia sociálnych služieb",
+      "heading_etr": "Návštevy v domovoch sociálnych služieb",
+      "standard": "Domovy sociálnych služieb, zariadenia pre seniorov a špecializované zariadenia (CRPD).",
+      "etr": "V zariadeniach sociálnych služieb žijú ľudia so zdravotným postihnutím a seniori.\nChodíme do týchto zariadení na návštevy.\nSledujeme, či sa tam dodržiavajú práva ľudí.\nPo návšteve napíšeme správu o tom, čo sme zistili.\nZariadenie nám musí povedať, čo zlepší.\nAk v takom zariadení žijete a niečo vás trápi, ozvite sa nám."
+    },
+    {
+      "page": "https://www.komisar.sk/npm",
+      "page_title": "Národný preventívny mechanizmus — Úrad komisára",
+      "heading_standard": "Národný preventívny mechanizmus",
+      "heading_etr": "Ako chránime ľudí v zariadeniach",
+      "standard": "Cieľom Národného preventívneho mechanizmu je vykonávanie neohlásených systematických návštev za účelom predchádzať mučeniu, krutému, neľudskému a ponižujúcemu zaobchádzaniu alebo trestaniu v zariadeniach, kde sú osoby so zdravotným postihnutím obmedzené na osobnej slobode, a to v zariadeniach sociálnych služieb, zdravotníckych zariadeniach ústavnej zdravotnej starostlivosti a zariadeniach na výkon trestu.",
+      "etr": "NPM znamená Národný preventívny mechanizmus.\nKomisár pre osoby so zdravotným postihnutím plní úlohy NPM.\nNavštevujeme zariadenia, odkiaľ ľudia nemôžu slobodne odísť.\nSú to napríklad domovy sociálnych služieb, psychiatrické nemocnice a väznice.\nChceme, aby s ľuďmi v týchto zariadeniach nikto zle nezaobchádzal."
+    },
+    {
+      "page": "https://www.komisar.sk/npm",
+      "page_title": "Národný preventívny mechanizmus — Úrad komisára",
+      "heading_standard": "Systematické návštevy",
+      "heading_etr": "Ako naše návštevy vyzerajú",
+      "standard": "",
+      "etr": "Do zariadenia prídeme bez ohlásenia vopred.\nMôžeme vojsť do každej miestnosti.\nRozprávame sa s ľuďmi, ktorí tam žijú, aj so zamestnancami.\nPo návšteve zariadeniu napíšeme, čo má zlepšiť."
+    },
+    {
+      "page": "https://www.komisar.sk/npm",
+      "page_title": "Národný preventívny mechanizmus — Úrad komisára",
+      "heading_standard": "Správy zo systematických návštev",
+      "heading_etr": "Správy z návštev",
+      "standard": "",
+      "etr": "Po každej návšteve napíšeme správu.\nV správe je, čo sme v zariadení zistili.\nSprávy zverejňujeme tu na stránke.\nZariadenie sa k správe môže vyjadriť."
+    },
+    {
+      "page": "https://www.komisar.sk/npm",
+      "page_title": "Národný preventívny mechanizmus — Úrad komisára",
+      "heading_standard": "Zlé zaobchádzanie",
+      "heading_etr": "Čo je zlé zaobchádzanie",
+      "standard": "",
+      "etr": "Zlé zaobchádzanie je správanie, ktoré človeka ponižuje.\nJe to aj správanie, ktoré človeku spôsobuje bolesť alebo strach.\nZlé zaobchádzanie je napríklad zbytočné obmedzovanie pohybu.\nJe to aj vtedy, keď človek nedostane potrebnú zdravotnú starostlivosť."
+    },
+    {
+      "page": "https://www.komisar.sk/npm",
+      "page_title": "Národný preventívny mechanizmus — Úrad komisára",
+      "heading_standard": "Dobrá prax a odporúčané postupy",
+      "heading_etr": "Čo zariadenia robia dobre",
+      "standard": "",
+      "etr": "Pri návštevách si všímame aj dobré veci.\nDobré príklady chceme ukázať aj iným zariadeniam.\nPomáha to zlepšovať život ľudí v zariadeniach."
+    },
+    {
+      "page": "https://www.komisar.sk/o-urade",
+      "page_title": "O úrade — Úrad komisára",
+      "heading_standard": "Postavenie komisára pre osoby so zdravotným postihnutím",
+      "heading_etr": "Kto je komisár",
+      "standard": "Postavenie, pôsobnosť komisára pre osoby so zdravotným postihnutím, podmienky výkonu tejto funkcie\na zriadenie Úradu komisára pre osoby so zdravotným postihnutím upravuje zákon č. 176/2015 Z. z.\no komisárovi pre deti a o komisárovi pre osoby so zdravotným postihnutím a o zmene a doplnení\nniektorých zákonov (ďalej len „zákon\").",
+      "etr": "Komisár pre osoby so zdravotným postihnutím chráni vaše práva.\nKomisára zriadil zákon v roku 2015.\nKomisár rozhoduje nezávisle.\nTeraz je komisárkou žena. Volá sa Zuzana Stavrovská."
+    },
+    {
+      "page": "https://www.komisar.sk/o-urade",
+      "page_title": "O úrade — Úrad komisára",
+      "heading_standard": "Postavenie úradu",
+      "heading_etr": "Čo je Úrad komisára",
+      "standard": "Postavenie, pôsobnosť komisára pre osoby so zdravotným postihnutím, podmienky výkonu tejto funkcie\na zriadenie Úradu komisára pre osoby so zdravotným postihnutím upravuje zákon č. 176/2015 Z. z.\no komisárovi pre deti a o komisárovi pre osoby so zdravotným postihnutím a o zmene a doplnení\nniektorých zákonov (ďalej len „zákon\"), ktorý nadobudol účinnosť 1. septembra 2015. Tento zákon\npredovšetkým vytvoril inštitucionálne zabezpečenie verejnej ochrany práv osôb so zdravotným\npostihnutím.\nKomisár sa podieľa na ochrane práv osôb so zdravotným postihnutím, podporou a presadzovaním práv\npriznaných osobe so zdravotným postihnutím medzinárodnými zmluvami, ktorými je Slovenská republika\nviazaná (Dohovor OSN o právach osôb so zdravotným postihnutím a Opčný protokol prijaté Valným\nzhromaždením OSN).\nKto sa môže obrátiť na komisára pre osoby so zdravotným postihnutím?\nPodľa § 8 ods. 3 zákona má každý právo obrátiť sa na komisára vo veci porušovania práv osoby so zdravotným postihnutím alebo ohrozovania práv osoby so zdravotným postihnutím.\nPodľa § 8 ods. 4 zákona na komisára sa môže obrátiť tiež fyzická osoba, ktorá nemá spôsobilosť na právne úkony v plnom rozsahu alebo ktorá bola pozbavená spôsobilosti na právne úkony každá plnoletá fyzická osoba, a to ja tá, ktorej spôsobilosť na právne úkony bola obmedzená alebo bola spôsobilosti na právne úkony pozbavená a to priamo alebo prostredníctvom inej osoby aj bez vedomia svojho zákonného zástupcu, priamo sama alebo prostredníctvom inej osoby. Na komisára sa môže obrátiť aj dieťa priamo alebo prostredníctvom inej osoby aj bez vedomia svojich rodičov, poručníka, opatrovníka alebo inej osoby, ktorej bolo dieťa zverené do starostlivosti nahradzujúcej starostlivosť rodičov, pestúnov alebo ústavnej starostlivosti.\nKaždý, kto má právo obrátiť sa na komisára podľa § 8 ods. 3 a 4, má právo pri styku s komisárom\npoužívať svoj materinský jazyk a komunikovať s komisárom vo forme komunikácie pre neho prístupnej.\nPodnet osoby, ktorá je pozbavená osobnej slobody, alebo osoby, ktorej osobná sloboda je obmedzená\nna základe rozhodnutia súdu alebo iného oprávneného štátneho orgánu, a korešpondencia súvisiaca\ns podnetom nepodliehajú úradnej kontrole.\nPôsobnosť komisára sa vzťahuje na:\norgány verejnej správy, ktorými na účely tohto zákona sú\norgány štátnej správy,\norgány územnej samosprávy,\nprávnické osoby a fyzické osoby, ktoré podľa osobitného predpisu zasahujú do práv a povinností fyzických osôb a právnických osôb v oblasti verejnej správy,\nprávnické osoby a fyzické osoby - podnikateľov neuvedené v písmene a).\nPôsobnosť komisára pre osoby so zdravotným postihnutím sa nevzťahuje na výkon právomocí národnej\nrady, prezidenta Slovenskej republiky, vlády Slovenskej republiky, ústavného súdu, prokuratúry,\nsúdu, Najvyššieho kontrolného úradu Slovenskej republiky, verejného ochrancu práv, komisára pre\ndeti, spravodajských služieb a na výkon rozhodovacích právomocí policajta, ktorý je orgánom činným\nv trestnom konaní; to neplatí, ak ide o právomoci, ktoré tieto orgány vykonávajú ako orgány\nverejnej správy.",
+      "etr": "Úrad komisára je pracovisko.\nPomáha komisárovi robiť jeho prácu.\nPracujú tu ľudia, ktorí vybavujú vaše podnety.\nKomisár a úrad nie sú to isté. Komisár je funkcia, ktorú zriadil zákon."
+    },
+    {
+      "page": "https://www.komisar.sk/o-urade",
+      "page_title": "O úrade — Úrad komisára",
+      "heading_standard": "Aké sú kompetencie komisára?",
+      "heading_etr": "Čo komisár robí",
+      "standard": "Komisár:\nposudzuje na základe podnetu alebo z vlastnej iniciatívy dodržiavanie práv osoby so zdravotným postihnutím,\nmonitoruje dodržiavanie ľudských práv osoby so zdravotným postihnutím najmä vykonávaním nezávislého zisťovania plnenia záväzkov vyplývajúcich z medzinárodných zmlúv, ktorými je Slovenská republika viazaná,\nuskutočňuje výskumy a prieskumy na sledovanie stavu a vývoja v oblasti práv osôb so zdravotným postihnutím,\npresadzuje záujmy osôb so zdravotným postihnutím v spoločnosti,\nspolupracuje s osobami so zdravotným postihnutím priamo alebo prostredníctvom organizácií pôsobiacich v oblasti práv osôb so zdravotným postihnutím, konzultuje s nimi veci, ktoré sa ich týkajú, skúma ich názory a podporuje ich záujem o verejné otázky,\norganizuje aktivity na podporu dodržiavania práv ľudí so zdravotným postihnutím.\nNárodný preventívny mechanizmus\nplní úlohy národného preventívneho mechanizmu podľa Opčného protokolu k Dohovoru OSN proti mučeniu. Vykonáva systematické návštevy miest, kde sú osoby obmedzené na osobnej slobode.\nViac o NPM\nKomisár je oprávnený:\npožadovať pri vybavovaní podnetu aj z vlastnej iniciatívy od subjektov informácie a údaje na účely posúdenia dodržiavania ľudských práv, kópie spisovej dokumentácie, vrátane kópií dokladov, obrazových záznamov, zvukových záznamov alebo obrazovo – zvukových záznamov, od orgánov verejnej správy požadovať plnenie výkon ich oprávnení,\nnavrhovať prostriedky nápravy, môže požadovať tiež prijatie opatrení, ak výsledkom posúdenia je zistenie porušenia práv osoby so zdravotným postihnutím,\nvydávať stanoviská vo veciach dodržiavania práv osoby so zdravotným postihnutím a vyjadrenia vo veciach, ktoré posudzoval,\npredkladať oznámenia v mene osoby so zdravotným postihnutím podľa Opčného protokolu k Dohovoru OSN o právach osôb so zdravotným postihnutím,\nzúčastňovať sa súdneho konania z pozície „dohľadu\" - ochrancu práv ľudí so zdravotným postihnutím, má oprávnenie zúčastniť sa konania na súde,\nhovoriť bez prítomnosti tretích osôb s osobou so zdravotným postihnutím v mieste, kde sa vykonáva väzba, výkon trestu odňatia slobody, detencia, ochranné liečenie, ústavná starostlivosť, výchovné opatrenie alebo predbežné opatrenie.\nZákonom č. 176/2015 Z. z. bol zriadený komisár pre osoby so zdravotným postihnutím.\nÚrad komisára plní úlohy spojené s odborným, organizačným a materiálno-technickým\nzabezpečením činnosti komisára.",
+      "etr": "Komisár skúma, či niekto porušil vaše práva.\nRobí to podľa vášho podnetu alebo aj sám od seba.\nNavštevuje miesta, kde ľudia so zdravotným postihnutím žijú.\nAk zistí porušenie práv, navrhne, čo treba napraviť.\nKomisár môže vstúpiť aj do konania na súde."
+    },
+    {
+      "page": "https://www.komisar.sk/o-urade",
+      "page_title": "O úrade — Úrad komisára",
+      "heading_standard": "Ako je možné podať podnet?",
+      "heading_etr": "Ako podať podnet",
+      "standard": "Písomne\nÚstne do zápisnice\nTelefaxom\nElektronicky\nPodnet je možné podať písomne, ústne do zápisnice, telefaxom alebo elektronickými prostriedkami.\nAk sa občan rozhodne pre písomnú voľbu, podnet je potrebné zaslať poštou na adresu: Úrad Komisára\npre osoby so zdravotným postihnutím, Račianska ulica 153, 831 54 Bratislava 35 alebo elektronicky,\nprostredníctvom www.komisar.sk cez „Podať podnet\", s výberom možnosti\n„Podať elektronicky\".\nÚstne do zápisnice je možné podať podnet priamo v priestoroch úradu počas úradných hodín, ktoré\nsú k dispozícii na webovom portáli úradu. Pri tejto voľbe je možné aj vopred si dohodnúť termín\nstretnutia prostredníctvom www.komisar.sk, cez „Podať podnet\", s výberom\nmožnosti „Podať osobne\". Našim cieľom je zabezpečiť, aby každý podávateľ podnetu mohol komunikovať\ns tým zamestnancom úradu, ktorý sa uvedenej problematike odborne venuje. Pri osobnej konzultácii\npomôžeme spísať podnet, vysvetlíme prípadné nejasnosti alebo odporučíme ďalší postup.\nAk sa podnet podáva ústne, vyhotovuje sa písomný úradný záznam a so súhlasom osoby, ktorá podáva podnet, aj zvukový záznam alebo obrazovo-zvukový záznam; fyzickej osobe sú pred vyhotovením zvukového záznamu alebo obrazovo-zvukového záznamu vysvetlené dôvody jeho vyhotovenia. Na takto vyhotovený zvukový záznam alebo obrazovo-zvukový záznam sa nevzťahuje osobitný predpis; zvukový záznam alebo obrazovo-zvukový záznam komisár poskytuje súdu a orgánom činným v trestnom konaní na ich žiadosť.\nAk je podnet nejasný, komisár vyzve podávateľa podnetu, aby v určenej lehote nejasný podnet doplnil alebo spresnil. Komisár poučí podávateľa podnetu podľa prvej vety o spôsobe a obsahu doplnenia a spresnenia a o následkoch nedoplnenia alebo nespresnenia podnetu.\nAk podávateľ podnetu požiada komisára, aby sa jeho totožnosť utajila, alebo ak je jej utajenie potrebné, pri vybavovaní podnetu sa postupuje len na základe anonymizovaného podnetu. Každý zúčastnený na vybavovaní podnetu, komu je totožnosť podávateľa podnetu známa, je povinný o nej zachovať mlčanlivosť.\nAk podávateľ podnetu požiada komisára, aby sa jeho totožnosť utajila, ale charakter podnetu neumožňuje jeho vybavenie bez uvedenia niektorého z osobných údajov, komisár bezodkladne požiada podávateľa podnetu o súhlas s uvedením niektorého z osobných údajov a poučí ho o následkoch neudelenia súhlasu s uvedením niektorého z osobných údajov.\nAk je podávateľom podnetu fyzická osoba, ktorá nemá spôsobilosť na právne úkony v plnom rozsahu alebo ktorá bola pozbavená spôsobilosti na právne úkony, postupuje komisár pri prijímaní a posudzovaní úplnosti alebo zrozumiteľnosti podnetu s prihliadnutím na vek a rozumovú vyspelosť podávateľa podnetu a opisované skutočnosti.\nPostupom pri vybavovaní podnetu nemôžu byť ohrozené práva a právom chránené záujmy podávateľa podnetu.\nVýsledkom činnosti komisára je napr.\npredloženie oznámení v mene osoby so zdravotným postihnutím\npodanie písomného vyjadrenia\nspracovanie zovšeobecňujúceho stanoviska vo veciach dodržiavania práv osoby so zdravotným postihnutím\nuloženie opatrení a ich kontrola\npodanie podnetu na prokuratúru\npoučenie o správnom postupe\nodloženie podnetu.",
+      "etr": "Podnet je správa o tom, že niekto porušil práva.\nPodnet môže podať každý.\nMôžete vyplniť formulár na tejto stránke.\nMôžete poslať list alebo prísť k nám osobne.\nZa podanie podnetu nič neplatíte.\nPodnet môžete podať aj bez uvedenia mena."
+    },
+    {
+      "page": "https://www.komisar.sk/osobne-podanie",
+      "page_title": "Osobné podanie podnetu — Úrad komisára",
+      "heading_standard": "Osobné podanie podnetu",
+      "heading_etr": "Príďte k nám podať podnet osobne",
+      "standard": "Podnet o porušení Dohovoru OSN o právach osôb so zdravotným postihnutím môžete podať osobne\nkedykoľvek počas úradných hodín. Ak chcete mať istý konkrétny termín, rezervujte si ho cez\ntento formulár — zadajte hlavný a náhradný termín, ktoré vám vyhovujú, a vaše kontaktné údaje.\nÚrad vás kontaktuje a termín potvrdí.",
+      "etr": "Chcete podnet podať osobne na úrade?\nVyplňte tento formulár.\nNapíšte dva termíny, ktoré vám vyhovujú.\nÚrad vám zavolá alebo napíše a termín potvrdí."
+    },
+    {
+      "page": "https://www.komisar.sk/osobne-podanie",
+      "page_title": "Osobné podanie podnetu — Úrad komisára",
+      "heading_standard": "Kedy by vám osobné podanie vyhovovalo?",
+      "heading_etr": "Napíšte, kedy môžete prísť",
+      "standard": "Zadajte hlavný termín a jeden náhradný termín. Vyberajte pracovný deň (pondelok–piatok)\na čas v rámci úradných hodín. Po výbere dňa vám ukážeme dostupné časy.",
+      "etr": "Vyberte deň a čas, kedy môžete prísť. Vyberte aj náhradný termín. Termín je v týždni, od pondelka do piatka."
+    },
+    {
+      "page": "https://www.komisar.sk/osobne-podanie",
+      "page_title": "Osobné podanie podnetu — Úrad komisára",
+      "heading_standard": "Čoho sa podanie týka",
+      "heading_etr": "O čom je váš podnet",
+      "standard": "Tieto údaje sú nepovinné, ale pomôžu nám pripraviť sa na stretnutie. Ak ich teraz neviete vyplniť,\nmôžete pokračovať ďalej.",
+      "etr": "Tieto polia nemusíte vyplniť. Ak chcete, krátko napíšte, o čom je váš podnet."
+    },
+    {
+      "page": "https://www.komisar.sk/osobne-podanie",
+      "page_title": "Osobné podanie podnetu — Úrad komisára",
+      "heading_standard": "Vaše údaje",
+      "heading_etr": "Vaše údaje",
+      "standard": "Aby sme vás mohli kontaktovať a potvrdiť termín, potrebujeme meno, e-mail a telefón.\nAdresu vypĺňať nemusíte.",
+      "etr": "Napíšte svoje meno. Napíšte e-mail a telefón, aby sme vám mohli zavolať."
+    },
+    {
+      "page": "https://www.komisar.sk/osobne-podanie",
+      "page_title": "Osobné podanie podnetu — Úrad komisára",
+      "heading_standard": "Kontrola a odoslanie",
+      "heading_etr": "Posledný krok",
+      "standard": "Skontrolujte zhrnutie a overte, že nie ste robot. Potom objednajte termín.",
+      "etr": "Skontrolujte údaje. Potom kliknite na tlačidlo."
+    },
+    {
+      "page": "https://www.komisar.sk/podcast",
+      "page_title": "Podcast BEZ BARIÉR | Úrad komisára pre osoby so zdravotným postihnutím",
+      "heading_standard": "BEZ BARIÉR",
+      "heading_etr": "Podcast Bez bariér",
+      "standard": "",
+      "etr": "Podcast je nahrávka, ktorú si môžete vypočuť alebo pozrieť.\nNáš podcast sa volá Bez bariér.\nSú v ňom rozhovory o živote ľudí so zdravotným postihnutím.\nHovoríme o právach a o tom, čo ľuďom pomáha.\nNájdete ho na YouTube kanáli úradu."
+    },
+    {
+      "page": "https://www.komisar.sk/podnet",
+      "page_title": "Podať podnet o porušení práv osôb so zdravotným postihnutím",
+      "heading_standard": "Podajte podnet o porušení vašich práv",
+      "heading_etr": "Napíšte nám, čo sa stalo",
+      "standard": "Vyplnenie formulára trvá približne 5 minút. Údaje sú dôverné. Ak potrebujete pomoc s vyplnením,\nzavolajte nám na +421 2 20 42 03 09.",
+      "etr": "Vyplňte tento formulár.\nVyplnenie trvá asi 5 minút.\nVaše údaje sú dôverné.\nAk potrebujete pomoc, zavolajte nám: +421 2 20 42 03 09."
+    },
+    {
+      "page": "https://www.komisar.sk/podnety",
+      "page_title": "Podnety — Úrad komisára",
+      "heading_standard": "Podnety",
+      "heading_etr": "Podnety",
+      "standard": "Posudzujeme podnety týkajúce sa ľudí so zdravotným postihnutím, ktorí sa domnievajú,\nže boli poškodení konaním autorít a subjektov Slovenskej republiky.",
+      "etr": "Tu nájdete záznamy o veciach, ktoré komisár riešil.\nMená ľudí tu nie sú uvedené.\nOsobné údaje sú chránené."
+    },
+    {
+      "page": "https://www.komisar.sk/podnety",
+      "page_title": "Podnety — Úrad komisára",
+      "heading_standard": "Spisy",
+      "heading_etr": "Spisy",
+      "standard": "Spisy obsahujú evidenciu všetkých podaní úradu od založenia (2015). Verejne dostupné\nsú metadáta — predmet podnetu, dátum, stav a referát. Osobné údaje podávateľov sú anonymizované.\nKliknutím na riadok rozbalíte detail. Spolu 6 750 záznamov.",
+      "etr": "Spis je záznam o jednom podnete.\nV zozname vidíte, čoho sa podnet týkal.\nVidíte aj to, kedy podnet prišiel a ako sa vybavil."
+    },
+    {
+      "page": "https://www.komisar.sk/podnety",
+      "page_title": "Podnety — Úrad komisára",
+      "heading_standard": "Opatrenia",
+      "heading_etr": "Opatrenia",
+      "standard": "Opatrenia komisára sú adresované orgánom verejnej moci s odporúčaním nápravy.\nKliknutím na riadok rozbalíte detail. Spolu 1 600 záznamov.",
+      "etr": "Opatrenie je návrh komisára, čo treba napraviť.\nKomisár ho pošle úradu alebo zariadeniu, ktoré porušilo práva.\nTen musí komisárovi oznámiť, čo s tým urobil."
+    },
+    {
+      "page": "https://www.komisar.sk/podnety",
+      "page_title": "Podnety — Úrad komisára",
+      "heading_standard": "Súdne konania",
+      "heading_etr": "Súdne konania",
+      "standard": "Súdne konania, v ktorých úrad komisára pôsobil ako účastník alebo zástupca.\nKliknutím na riadok rozbalíte detail. Spolu 200 záznamov.",
+      "etr": "Komisár môže vstúpiť do konania na súde.\nNa súde chráni práva človeka so zdravotným postihnutím.\nTu je zoznam takýchto prípadov."
+    },
+    {
+      "page": "https://www.komisar.sk/pre-verejnost",
+      "page_title": "Ako vám pomáhame — Úrad komisára",
+      "heading_standard": "Ako vám pomáhame",
+      "heading_etr": "Ako vám pomáhame",
+      "standard": "Komisár sa podieľa na ochrane práv osôb so zdravotným postihnutím, podporou\na presadzovaním práv priznaných osobe so zdravotným postihnutím medzinárodnými\nzmluvami, ktorými je Slovenská republika viazaná (Dohovor OSN o právach osôb so\nzdravotným postihnutím a Opčný protokol prijaté Valným zhromaždením OSN).",
+      "etr": "Komisár pre osoby so zdravotným postihnutím je tu pre vás.\nChráni práva ľudí so zdravotným postihnutím.\nTieto práva sú napísané v Dohovore OSN o právach osôb so zdravotným postihnutím.\nDohovor je medzinárodná zmluva. Slovensko ju musí dodržiavať."
+    },
+    {
+      "page": "https://www.komisar.sk/pre-verejnost",
+      "page_title": "Ako vám pomáhame — Úrad komisára",
+      "heading_standard": "Kto sa môže obrátiť na komisára pre osoby so zdravotným postihnutím?",
+      "heading_etr": "Kto nám môže napísať",
+      "standard": "Podľa § 8 ods. 3 zákona má každý právo obrátiť sa na komisára vo veci porušovania práv\nosoby so zdravotným postihnutím alebo ohrozovania práv osoby so zdravotným postihnutím.\nPodľa § 8 ods. 4 zákona na komisára sa môže obrátiť tiež fyzická osoba, ktorá nemá\nspôsobilosť na právne úkony v plnom rozsahu alebo ktorá bola pozbavená spôsobilosti na\nprávne úkony každá plnoletá fyzická osoba, a to ja tá, ktorej spôsobilosť na právne úkony\nbola obmedzená alebo bola spôsobilosti na právne úkony pozbavená a to priamo alebo\nprostredníctvom inej osoby aj bez vedomia svojho zákonného zástupcu, priamo sama alebo\nprostredníctvom inej osoby. Na komisára sa môže obrátiť aj dieťa priamo alebo\nprostredníctvom inej osoby aj bez vedomia svojich rodičov, poručníka, opatrovníka alebo\ninej osoby, ktorej bolo dieťa zverené do starostlivosti nahradzujúcej starostlivosť\nrodičov, pestúnov alebo ústavnej starostlivosti.\nKaždý, kto má právo obrátiť sa na komisára podľa § 8 ods. 3 a 4, má právo pri styku\ns komisárom používať svoj materinský jazyk a komunikovať s komisárom vo forme komunikácie\npre neho prístupnej.\nPodnet osoby, ktorá je pozbavená osobnej slobody, alebo osoby, ktorej osobná sloboda je\nobmedzená na základe rozhodnutia súdu alebo iného oprávneného štátneho orgánu,\na korešpondencia súvisiaca s podnetom nepodliehajú úradnej kontrole.",
+      "etr": "Napísať nám môže každý.\nMôžete písať sami za seba.\nMôžete písať aj za niekoho iného. Napríklad za člena rodiny.\nNapísať môže aj dieťa. Nemusí to povedať rodičom.\nAk žijete v zariadení, vašu správu pre komisára nikto nesmie čítať."
+    },
+    {
+      "page": "https://www.komisar.sk/pre-verejnost",
+      "page_title": "Ako vám pomáhame — Úrad komisára",
+      "heading_standard": "Aké sú kompetencie komisára?",
+      "heading_etr": "Čo komisár robí",
+      "standard": "",
+      "etr": "Komisár skúma, či niekto porušil vaše práva.\nNavštevuje miesta, kde ľudia so zdravotným postihnutím žijú.\nZisťuje, ako sa tam ich práva dodržiavajú.\nAk zistí porušenie práv, navrhne, čo treba napraviť.\nKomisár môže vstúpiť aj do konania na súde a chrániť tam vaše práva."
+    },
+    {
+      "page": "https://www.komisar.sk/pre-verejnost",
+      "page_title": "Ako vám pomáhame — Úrad komisára",
+      "heading_standard": "Ako je možné podať podnet?",
+      "heading_etr": "Ako podať podnet",
+      "standard": "",
+      "etr": "Podnet je správa o tom, že niekto porušil práva.\nPodnet môžete podať štyrmi spôsobmi.\nPrvý spôsob: vyplňte formulár na tejto stránke. Kliknite na tlačidlo Podať podnet.\nDruhý spôsob: pošlite list na adresu Račianska 153, 831 54 Bratislava.\nTretí spôsob: prídite k nám osobne. Pomôžeme vám podnet napísať.\nŠtvrtý spôsob: zavolajte nám.\nZa podanie podnetu nič neplatíte.\nPodnet môžete podať aj bez uvedenia mena."
+    },
+    {
+      "page": "https://www.komisar.sk/pribehy",
+      "page_title": "Príbehy (234) — Úrad komisára pre osoby so zdravotným postihnutím",
+      "heading_standard": "Príbehy",
+      "heading_etr": "Príbehy ľudí",
+      "standard": "234 anonymizovaných príbehov ľudí, ktorí sa obrátili na úrad\nkomisára. Skutočné prípady: porušenie práv, vybavenie, zmena.",
+      "etr": "Tu sú skutočné príbehy ľudí so zdravotným postihnutím.\nTýmto ľuďom úrad pomáhal.\nMená sa neuvádzajú. Nikto nespozná, o koho ide.\nPríbehy si môžete filtrovať podľa roku.\nMôžete v nich aj vyhľadávať podľa slova."
+    },
+    {
+      "page": "https://www.komisar.sk/prieskumy",
+      "page_title": "Prieskumy — Úrad komisára",
+      "heading_standard": "Prieskumy a výskumy",
+      "heading_etr": "Prieskumy",
+      "standard": "Komisár pre osoby so zdravotným postihnutím okrem monitorovacích a systematických návštev\nvykonáva aj prieskumy a výskumy. Zameriavame sa nimi na to, ako sa práva osôb so zdravotným\npostihnutím dodržiavajú v každodennej praxi — od prístupnosti volebných miestností až po\npostavenie osôb pozbavených alebo obmedzených v spôsobilosti na právne úkony.",
+      "etr": "Prieskum znamená, že zisťujeme, aký je skutočný stav.\nZisťujeme, či sa práva ľudí so zdravotným postihnutím dodržiavajú.\nVýsledky pomáhajú veci zlepšovať."
+    },
+    {
+      "page": "https://www.komisar.sk/prieskumy",
+      "page_title": "Prieskumy — Úrad komisára",
+      "heading_standard": "Integrovaná posudková činnosť",
+      "heading_etr": "Posudzovanie zdravotného stavu",
+      "standard": "Prieskum výkonu integrovanej posudkovej činnosti v aplikačnej praxi a jej dopadu na\ndodržiavanie práv osôb so zdravotným postihnutím. Prieskum sme realizovali od apríla\ndo júna 2026 a hodnotili sme v ňom obdobie od septembra 2025 do júna 2026.",
+      "etr": "Posudzovanie je, keď úrad zisťuje, aké máte zdravotné postihnutie.\nPodľa toho rozhodne, na akú pomoc máte nárok.\nZisťovali sme, či to funguje dobre.\nSprávu si môžete stiahnuť nižšie."
+    },
+    {
+      "page": "https://www.komisar.sk/prieskumy",
+      "page_title": "Prieskumy — Úrad komisára",
+      "heading_standard": "Architektonická prístupnosť volebných miestností",
+      "heading_etr": "Dostanete sa voliť?",
+      "standard": "",
+      "etr": "Každý človek má právo voliť.\nVolebná miestnosť je miesto, kde odovzdáte hlasovací lístok.\nZisťovali sme, či sa do nej dostane aj človek na vozíku.\nRobili sme to pri viacerých voľbách.\nVýsledky nájdete v dokumentoch nižšie."
+    },
+    {
+      "page": "https://www.komisar.sk/prieskumy",
+      "page_title": "Prieskumy — Úrad komisára",
+      "heading_standard": "Prieskum o osobách pozbavených spôsobilosti na právne úkony",
+      "heading_etr": "Ľudia, ktorým súd obmedzil rozhodovanie",
+      "standard": "",
+      "etr": "Niektorým ľuďom súd obmedzí rozhodovanie o vlastných veciach.\nZnamená to, že nemôžu sami podpisovať dôležité zmluvy.\nZisťovali sme, ako títo ľudia žijú.\nPrieskum sme robili v roku 2016."
+    },
+    {
+      "page": "https://www.komisar.sk/pristupnost",
+      "page_title": "Vyhlásenie o prístupnosti — Úrad komisára",
+      "heading_standard": "Vyhlásenie o prístupnosti",
+      "heading_etr": "Ako prístupný je tento web",
+      "standard": "Úrad komisára pre osoby so zdravotným postihnutím má záujem zabezpečiť prístupnosť\nsvojho webového sídla v súlade so zákonom č. 95/2019 Z. z. o informačných technológiách\nvo verejnej správe a príslušnými vykonávacími predpismi v rozsahu podmienok podľa\nsmernice (EÚ) 2016/2102.",
+      "etr": "Prístupný web znamená, že ho vie použiť každý.\nAj človek, ktorý nevidí, nepočuje alebo ťažko ovláda myš.\nTento dokument hovorí, ako sme na tom.\nKaždý štátny web musí takýto dokument mať."
+    },
+    {
+      "page": "https://www.komisar.sk/pristupnost",
+      "page_title": "Vyhlásenie o prístupnosti — Úrad komisára",
+      "heading_standard": "Stav súladu",
+      "heading_etr": "Ako sme na tom",
+      "standard": "",
+      "etr": "Hlavné stránky tohto webu pravidlá prístupnosti spĺňajú.\nStaršie dokumenty vo formáte PDF ich zatiaľ nespĺňajú.\nNiektoré staršie videá tiež nie.\nPostupne to opravujeme."
+    },
+    {
+      "page": "https://www.komisar.sk/pristupnost",
+      "page_title": "Vyhlásenie o prístupnosti — Úrad komisára",
+      "heading_standard": "Spätná väzba a kontaktné informácie",
+      "heading_etr": "Keď vám web nefunguje",
+      "standard": "",
+      "etr": "Ak vám na webe niečo nefunguje, dajte nám vedieť.\nNapíšte nám na admin@komisar.sk.\nNapíšte, čo vám nejde a na ktorej stránke.\nOdpovieme vám a pomôžeme."
+    },
+    {
+      "page": "https://www.komisar.sk/pristupnost",
+      "page_title": "Vyhlásenie o prístupnosti — Úrad komisára",
+      "heading_standard": "Vynucovacie konanie",
+      "heading_etr": "Keď vám neodpovieme",
+      "standard": "",
+      "etr": "Ak vám neodpovieme, môžete sa obrátiť na iný úrad.\nJe to Ministerstvo investícií, regionálneho rozvoja a informatizácie.\nNapíšte im na standard@mirri.gov.sk.\nToto ministerstvo dozerá na prístupnosť štátnych webov."
+    },
+    {
+      "page": "https://www.komisar.sk/publikacie",
+      "page_title": "Publikácie — Úrad komisára",
+      "heading_standard": "Publikácie",
+      "heading_etr": "Publikácie",
+      "standard": "Knižné a informačné publikácie úradu — analýzy, prehľady, sprievodcovia a osvetové\nmateriály o právach osôb so zdravotným postihnutím. Spolu 12 publikácií.",
+      "etr": "Publikácia je kniha alebo informačný dokument.\nÚrad vydáva publikácie o právach ľudí so zdravotným postihnutím.\nStiahnuť si ich môžete zadarmo."
+    },
+    {
+      "page": "https://www.komisar.sk/rezervacia",
+      "page_title": "Rezervácia stretnutia — Úrad komisára",
+      "heading_standard": "Dohodnite si stretnutie",
+      "heading_etr": "Dohodnite si stretnutie",
+      "standard": "Vyberte si referát, vlastnými slovami opíšte tému stretnutia a zvoľte deň návštevy.\nPodľa zvoleného dňa vám ukážeme úradné hodiny — stačí zadať odhadovaný čas príchodu.\nPo odoslaní žiadosti vás v prípade potreby kontaktujeme.",
+      "etr": "Tu si dohodnete osobné stretnutie s pracovníkom úradu.\nStretnutie bude na úrade na Račianskej 153 v Bratislave.\nFormulár má štyri kroky.\nKrok 1: vyberte referát. Referát je oddelenie úradu.\nAk neviete, ktorý referát vybrať, vyberte možnosť Neviem.\nKrok 2: napíšte vlastnými slovami, o čom chcete hovoriť.\nKrok 3: vyberte deň a čas, kedy chcete prísť.\nKrok 4: napíšte, ako vás máme kontaktovať.\nAk potrebujete pomoc alebo tlmočníka, napíšte nám to.\nTermín vám potom potvrdíme."
+    },
+    {
+      "page": "https://www.komisar.sk/stanoviska",
+      "page_title": "Stanoviská komisárky — Úrad komisára",
+      "heading_standard": "Stanoviská komisárky",
+      "heading_etr": "Stanoviská komisárky",
+      "standard": "Komisárka vydáva stanoviská k právnym otázkam, ktoré sa dotýkajú práv osôb\nso zdravotným postihnutím. Nižšie nájdete úplný zoznam zverejnených stanovísk\na súvisiacich vzorov podaní na stiahnutie.",
+      "etr": "Stanovisko je písomný názor komisárky.\nKomisárka ho napíše, keď nie je jasné, čo zákon hovorí.\nStanoviská sa týkajú práv ľudí so zdravotným postihnutím.\nStiahnuť si ich môžete ako súbor PDF."
+    },
+    {
+      "page": "https://www.komisar.sk/v-mediach",
+      "page_title": "V médiách — Úrad komisára",
+      "heading_standard": "V médiách",
+      "heading_etr": "Úrad v médiách",
+      "standard": "Zmienky o Úrade komisára a komisárke Zuzane Stavrovskej v slovenských médiách.\n150 článkov z denníkov, spravodajských portálov a televíznych staníc.",
+      "etr": "Tu sú správy z novín, rozhlasu a televízie.\nHovoria o práci úradu a komisárky.\nKliknutím na odkaz sa dostanete na stránku daného média."
+    },
+    {
+      "page": "https://www.komisar.sk/zverejnovanie",
+      "page_title": "Zverejňovanie — Úrad komisára",
+      "heading_standard": "Zverejňovanie",
+      "heading_etr": "Zverejňovanie",
+      "standard": "Verejne zverejnené dokumenty úradu — správy o činnosti, stanoviská komisárky,\npublikácie, výberové konania a infozákonové sprístupnenia.",
+      "etr": "Tu nájdete dokumenty, ktoré úrad zverejňuje.\nSú to správy, stanoviská, publikácie aj zmluvy.\nVšetky si môžete stiahnuť zadarmo."
+    },
+    {
+      "page": "https://www.komisar.sk/zverejnovanie",
+      "page_title": "Zverejňovanie — Úrad komisára",
+      "heading_standard": "Správy o činnosti",
+      "heading_etr": "Správy o činnosti",
+      "standard": "",
+      "etr": "Každý rok napíšeme správu o svojej práci.\nV správe sa dozviete, čo úrad za rok urobil.\nSprávy sú tu od roku 2015. Vtedy zákon zriadil komisára.\nStiahnuť si ich môžete ako súbor PDF."
+    },
+    {
+      "page": "https://www.komisar.sk/zverejnovanie",
+      "page_title": "Zverejňovanie — Úrad komisára",
+      "heading_standard": "Sprístupňovanie informácií",
+      "heading_etr": "Ako si vypýtať informácie",
+      "standard": "",
+      "etr": "Máte právo požiadať úrad o informácie.\nToto právo vám dáva zákon č. 211/2000 Z. z.\nPožiadať môžete listom, e-mailom alebo osobne.\nÚrad vám musí odpovedať najneskôr do ôsmich pracovných dní.\nTu nájdete informácie, ktoré sme takto už zverejnili."
+    },
+    {
+      "page": "https://www.komisar.sk/zverejnovanie",
+      "page_title": "Zverejňovanie — Úrad komisára",
+      "heading_standard": "Výberové konania",
+      "heading_etr": "Voľné pracovné miesta",
+      "standard": "",
+      "etr": "Výberové konanie je súťaž o pracovné miesto.\nTakto hľadáme nových zamestnancov.\nKeď máme voľné miesto, nájdete ho tu."
+    },
+    {
+      "page": "https://www.komisar.sk/zverejnovanie",
+      "page_title": "Zverejňovanie — Úrad komisára",
+      "heading_standard": "Zmluvy a faktúry",
+      "heading_etr": "Zmluvy a faktúry",
+      "standard": "",
+      "etr": "Zmluva je dohoda o tom, čo kto urobí a za koľko.\nFaktúra je doklad o zaplatení za tovar alebo službu.\nÚrad ich musí zo zákona zverejňovať.\nNájdete ich tu."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/athelas64/etr-slovnik/main/schema/slovnik.schema.json",
+  "title": "Slovník ťažkých slov pre ľahko čitateľné texty",
+  "description": "Jeden súbor = jedna vrstva slovníka (global, public alebo user) v jednom jazyku. Vysvetlenia sú písané podľa pravidiel ľahko čitateľného textu: krátke vety, jedna veta na riadok.",
+  "type": "object",
+  "required": ["name", "tier", "lang", "version", "licence", "entries"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "name": { "type": "string", "minLength": 1 },
+    "description": { "type": "string" },
+    "tier": { "type": "string", "enum": ["global", "public", "user"] },
+    "lang": { "type": "string", "pattern": "^[a-z]{2,3}$" },
+    "version": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}(\\.\\d+)?$" },
+    "updated": { "type": "string", "format": "date" },
+    "licence": {
+      "type": "object",
+      "required": ["name", "url"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "attribution": { "type": "string", "description": "Text, ktorý treba uviesť pri použití slovníka." },
+        "note": { "type": "string" }
+      }
+    },
+    "domains": {
+      "type": "array",
+      "description": "Povolené hodnoty poľa domain v tomto súbore (voliteľné).",
+      "items": { "type": "string" }
+    },
+    "entries": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/entry" }
+    }
+  },
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "required": ["id", "term", "easy"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "Jedinečný identifikátor bez diakritiky, napr. 'podnet' alebo 'dohovor-osn'."
+        },
+        "term": { "type": "string", "minLength": 1, "description": "Slovo alebo výraz tak, ako ho čitateľ stretne na tlačive alebo na úrade." },
+        "forms": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "description": "Ďalšie tvary a varianty, podľa ktorých sa výraz v texte hľadá (množné číslo, pády, skratky)."
+        },
+        "easy": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Vysvetlenie v ľahko čitateľnom jazyku. Jedna veta na riadok (\\n). Bez zátvoriek, pomlčiek a skratiek."
+        },
+        "example": { "type": "string", "description": "Príklad z každodenného života, jedna veta na riadok." },
+        "same_words": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Iné slová s rovnakým významom, ktoré čitateľ môže stretnúť (synonymá, skratky)."
+        },
+        "domain": { "type": "string", "description": "Oblasť: úrad, právo, peniaze, zdravie, sociálne služby, práca, bývanie, vzdelávanie, doprava, digitál, rodina, ostatné." },
+        "note": { "type": "string", "description": "Poznámka pre autorov textov (nie pre čitateľa): kedy výraz použiť, čoho sa vyvarovať." },
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "name": { "type": "string" },
+            "url": { "type": "string", "format": "uri" },
+            "title": { "type": "string" },
+            "revision": { "type": ["integer", "string"] },
+            "fetched": { "type": "string", "format": "date" },
+            "licence": { "type": "string" }
+          }
+        },
+        "status": {
+          "type": "string",
+          "enum": ["draft", "reviewed", "reader-checked"],
+          "description": "draft = navrhnuté, reviewed = skontroloval odborník, reader-checked = overili čitatelia s mentálnym znevýhodnením."
+        },
+        "origin": {
+          "type": "string",
+          "enum": ["human", "adapted", "machine-translated"],
+          "description": "human = napísal človek, adapted = upravené z uvedeného zdroja, machine-translated = strojový preklad, ktorý ešte nikto neskontroloval."
+        },
+        "added": { "type": "string", "format": "date" },
+        "updated": { "type": "string", "format": "date" },
+        "contributor": { "type": "string", "description": "Kto výraz navrhol alebo skontroloval (organizácia alebo prezývka na GitHube)." }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "etr-slovnik",
+  "version": "2026-09-29.1",
+  "schema": "schema/slovnik.schema.json",
+  "files": {
+    "slovniky/verejna-sprava-sk.json": {
+      "sha256": "4e027905331d7716824e94c945acfb3043556cdf3f08318cf8bd9cf8438ca46f",
+      "bytes": 31703,
+      "entries": 43,
+      "version": "2026-09-29.1",
+      "tier": "public",
+      "lang": "sk",
+      "licence": "CC BY 4.0"
+    }
+  },
+  "updated": "2026-09-29T05:24:41Z"
+}

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.part
+*.bak
+work/
+# raw Hurraki dumps live in %LOCALAPPDATA%\easy-to-read\hurraki, not here
+*.jsonl
