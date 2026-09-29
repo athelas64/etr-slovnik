@@ -3,6 +3,15 @@
   "version": "2026-09-29.1",
   "schema": "schema/slovnik.schema.json",
   "files": {
+    "slovniky/hurraki-sk.json": {
+      "sha256": "84332705d53c2eacea940d49415820934f3e8a2a578d5fd3717870de408a1e22",
+      "bytes": 215560,
+      "entries": 172,
+      "version": "2026-09-29.1",
+      "tier": "global",
+      "lang": "sk",
+      "licence": "CC BY-SA 3.0"
+    },
     "slovniky/verejna-sprava-sk.json": {
       "sha256": "4e027905331d7716824e94c945acfb3043556cdf3f08318cf8bd9cf8438ca46f",
       "bytes": 31703,
@@ -13,5 +22,5 @@
       "licence": "CC BY 4.0"
     }
   },
-  "updated": "2026-09-29T05:24:41Z"
+  "updated": "2026-09-29T05:34:09Z"
 }
