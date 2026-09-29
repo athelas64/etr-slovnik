@@ -41,11 +41,27 @@ Platia [európske pravidlá ľahko čitateľného textu](https://www.inclusion.e
 - Čítač obrazovky, nie „čítačka“.
 - Nevymýšľajte fakty: poplatky, lehoty a sumy patria do textu úradu, nie do slovníka.
 
+## Tvary a synonymá
+
+Nástroj podľa hesla hľadá slovo v texte, preto na dvoch poliach záleží:
+
+- `forms` sú **len tvary a ustálené varianty hesla**: množné číslo, pády, ženský tvar,
+  predložkové spojenie („na úrade“), dlhší úradný názov. Každý tvar musí mať aspoň jedno
+  slovo, ktoré začína rovnakými 4 písmenami ako niektoré slovo hesla. Nástroj ich hľadá
+  aj v ďalších pádoch. Sem nepatria príbuzné slová: „zákonný“ nie je tvar hesla „zákon“,
+  „karta“ nie je tvar hesla „platobná karta“.
+- `same_words` sú **len skutočné synonymá a skratky** („penzia“ pri hesle „dôchodok“,
+  „ŤZP“ pri hesle „zdravotné postihnutie“). Nástroj ich hľadá len ako presné slová.
+  Sem nepatria nadradené ani susedné pojmy: „dieťa“ nie je synonymum hesla „maloletý“,
+  „úrad“ nie je synonymum hesla „verejná správa“. Také položky spôsobia, že heslo sa
+  ohlási pri texte, ktorý o ňom nie je.
+
 ## Čo sa kontroluje automaticky
 
 `scripts/validate.py` na každom pull requeste: JSON Schema, jedinečné `id`, dĺžka viet,
-jedna veta na riadok, zakázané znaky, a že strojovo preložené heslo nie je označené ako
-`reviewed` alebo `reader-checked`.
+jedna veta na riadok, zakázané znaky, že strojovo preložené heslo nie je označené ako
+`reviewed` alebo `reader-checked`, že každý tvar v `forms` zdieľa začiatok slova s heslom
+(skratky patria do `same_words`) a že `same_words` neopakuje heslo ani tvar.
 
 ## Stavy hesla
 
