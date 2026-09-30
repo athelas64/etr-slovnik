@@ -4,13 +4,13 @@
   "description": "Spoločný slovník pre orgány verejnej správy na Slovensku: ťažké slová a ich vysvetlenia v ľahko čitateľnom jazyku. Overovací prototyp. Základ tvoria vysvetlenia z webu Úradu komisára pre osoby so zdravotným postihnutím, upravené tak, aby platili pre každý úrad.",
   "tier": "public",
   "lang": "sk",
-  "version": "2026-09-29.2",
-  "updated": "2026-09-29",
+  "version": "2026-09-30",
+  "updated": "2026-09-30",
   "licence": {
-    "name": "CC BY 4.0",
-    "url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "Slovník ťažkých slov verejnej správy, https://github.com/athelas64/etr-slovnik, CC BY 4.0. Základ: Úrad komisára pre osoby so zdravotným postihnutím, www.komisar.sk.",
-    "note": "Licencia je predbežná do rozhodnutia MIRRI."
+    "name": "CC BY-NC-SA 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "attribution": "Slovník ťažkých slov verejnej správy, https://github.com/athelas64/etr-slovnik, CC BY-NC-SA 4.0. Základ: Úrad komisára pre osoby so zdravotným postihnutím, www.komisar.sk.",
+    "note": "Licencia je predbežná do rozhodnutia MIRRI. Výskumný projekt zverejnený na účel hodnotenia; pripomienky a žiadosti o stiahnutie obsahu: milan.regec@uniba.sk."
   },
   "domains": [
     "úrad",

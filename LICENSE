@@ -1,15 +1,30 @@
 Licencie / Licences
 ===================
 
+Výskumný projekt zverejnený na účel hodnotenia / Research project published for evaluation
+---------------------------------------------------------------------------------------
+Tento repozitár je výstup výskumu ľahko čitateľného jazyka na Filozofickej fakulte Univerzity
+Komenského v Bratislave. Je zverejnený na účel hodnotenia overovacieho prototypu (nástroj a
+slovník) odbornou verejnosťou a verejnou správou. Prevzaté texty pochádzajú od orgánov
+verejnej správy a od organizácií financovaných Európskou úniou a sú citované pri každom hesle.
+Pripomienky, opravy a žiadosti o stiahnutie obsahu (takedown) posielajte na
+milan.regec@uniba.sk; oprávnenej žiadosti vyhovieme bez zbytočného odkladu.
+
+This repository is an output of research into easy-to-read language at the Faculty of Arts,
+Comenius University Bratislava, published so that the prototype (tool and dictionary) can be
+evaluated by experts and public bodies. Third-party texts come from public authorities and
+EU-funded organisations and are cited at every entry. Comments, corrections and takedown
+requests: milan.regec@uniba.sk.
+
 Tento repozitár obsahuje diela pod rôznymi licenciami. Rozhodujúci je blok "licence"
 v každom súbore slovníka.
 
 1. slovniky/verejna-sprava-sk.json
    Slovník ťažkých slov verejnej správy
-   Creative Commons Attribution 4.0 International (CC BY 4.0)
-   https://creativecommons.org/licenses/by/4.0/legalcode
+   Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+   https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
    Uvádzajte: "Slovník ťažkých slov verejnej správy, https://github.com/athelas64/etr-slovnik,
-   CC BY 4.0. Základ: Úrad komisára pre osoby so zdravotným postihnutím, www.komisar.sk."
+   CC BY-NC-SA 4.0. Základ: Úrad komisára pre osoby so zdravotným postihnutím, www.komisar.sk."
    Licencia je predbežná (overovací prototyp) a môže sa po rozhodnutí MIRRI zmeniť.
 
 2. slovniky/hurraki-sk.json
@@ -23,12 +38,24 @@ v každom súbore slovníka.
    Každé heslo uvádza adresu a revíziu pôvodného článku v poli "source".
    Zmeny oproti originálu: preklad, skrátenie, prispôsobenie slovenským úradom a zákonom.
 
-3. zdroje/komisar-pary.json
+3. slovniky/inclusion-europe-sk.json
+   Slovenský strojový preklad slovníka "Easy-to-read dictionary" organizácie Inclusion Europe,
+   https://www.inclusion-europe.eu/easy-to-read-term/ (© Inclusion Europe). Inclusion Europe
+   je európske združenie ľudí s mentálnym znevýhodnením a ich rodín spolufinancované Európskou
+   úniou; slovník je citovaný zdroj použitý na účel výskumu. Preklad je odvodené dielo a šíri
+   sa pod Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+   (CC BY-NC-SA 4.0), https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.
+   Každé heslo uvádza pôvodný anglický výraz a adresu v poli "source". Heslá sú strojový
+   preklad (origin: machine-translated, status: draft), kým ich neskontroluje človek.
+   Uvádzajte: "Inclusion Europe, Easy-to-read dictionary, www.inclusion-europe.eu; slovenský
+   preklad etr-slovnik, https://github.com/athelas64/etr-slovnik, CC BY-NC-SA 4.0."
+
+4. zdroje/komisar-pary.json
    Texty Úradu komisára pre osoby so zdravotným postihnutím tak, ako boli zverejnené na
    www.komisar.sk (štandardná a ľahko čitateľná verzia), uložené na účel dohľadateľnosti
    pôvodu hesiel. Autorské práva ostávajú úradu.
 
-4. scripts/, schema/, manifest.json a ostatné súbory repozitára
+5. scripts/, schema/, manifest.json a ostatné súbory repozitára
 
    MIT License
 

@@ -81,5 +81,5 @@ body:
     attributes:
       label: Licencia
       options:
-        - label: Súhlasím so zverejnením vysvetlenia pod licenciou súboru (teraz CC BY 4.0).
+        - label: Súhlasím so zverejnením vysvetlenia pod licenciou súboru (teraz CC BY-NC-SA 4.0).
           required: true

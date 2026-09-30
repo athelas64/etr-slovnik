@@ -74,5 +74,5 @@ jedna veta na riadok, zakázané znaky, že strojovo preložené heslo nie je oz
 ## Licencia príspevkov
 
 Príspevkom do `slovniky/verejna-sprava-sk.json` súhlasíte s jeho zverejnením pod
-licenciou súboru (teraz CC BY 4.0; po rozhodnutí MIRRI sa môže zmeniť, o čom budú
+licenciou súboru (teraz CC BY-NC-SA 4.0; po rozhodnutí MIRRI sa môže zmeniť, o čom budú
 prispievatelia informovaní). Príspevky do `slovniky/hurraki-sk.json` sú CC BY-SA 3.0.

@@ -2,8 +2,9 @@
 
 Spoločný, otvorený slovník ťažkých slov a ich vysvetlení v ľahko čitateľnom jazyku
 (easy-to-read) pre orgány verejnej správy na Slovensku. **Overovací prototyp** (proof of
-concept): repozitár je zatiaľ súkromný, licencia a správa sú predbežné do rozhodnutia
-MIRRI.
+concept). Výskumný projekt Filozofickej fakulty Univerzity Komenského v Bratislave,
+zverejnený na účel hodnotenia; licencia a správa sú predbežné do rozhodnutia MIRRI.
+Pripomienky, opravy a žiadosti o stiahnutie obsahu: milan.regec@uniba.sk.
 
 Prečo: ľahko čitateľný text musí každé ťažké slovo vysvetliť. Keď každý úrad vysvetľuje
 „podnet“, „spôsobilosť na právne úkony“ alebo „osobné údaje“ inak, čitateľ s mentálnym
@@ -14,8 +15,9 @@ vysvetlenie, ktoré čitateľ stretne všade a ktoré overili ľudia, pre ktorý
 
 | Cesta | Obsah |
 |---|---|
-| `slovniky/verejna-sprava-sk.json` | Slovník verejnej správy (vrstva `public`), CC BY 4.0. Základ: vysvetlenia z webu Úradu komisára pre osoby so zdravotným postihnutím, upravené tak, aby platili pre každý úrad. |
+| `slovniky/verejna-sprava-sk.json` | Slovník verejnej správy (vrstva `public`), CC BY-NC-SA 4.0. Základ: vysvetlenia z webu Úradu komisára pre osoby so zdravotným postihnutím, upravené tak, aby platili pre každý úrad. |
 | `slovniky/hurraki-sk.json` | Slovenská adaptácia lexikónu [Hurraki](https://hurraki.de) (vrstva `global`), CC BY-SA 3.0. Prvé heslá sú strojový preklad označený `origin: machine-translated`, kým ich neskontroluje človek. |
+| `slovniky/inclusion-europe-sk.json` | Slovenský preklad slovníka [Inclusion Europe](https://www.inclusion-europe.eu/easy-to-read-term/) (vrstva `global`), CC BY-NC-SA 4.0: práva, voľby, európske inštitúcie, život v komunite. Strojový preklad označený `origin: machine-translated`. |
 | `schema/slovnik.schema.json` | JSON Schema pre všetky súbory slovníka. |
 | `manifest.json` | Zoznam súborov s odtlačkom sha256; nástroj si z neho zistí, či má nové heslá. |
 | `scripts/validate.py` | Kontrola schémy a pravidiel ľahko čitateľného textu (max. 15 slov vo vete, jedna veta na riadok, bez zátvoriek a lomiek). Beží pri každom pull requeste. |
@@ -73,20 +75,25 @@ Pozrite [CONTRIBUTING.md](CONTRIBUTING.md). V skratke: nové slovo navrhnete cez
 
 ## Licencie
 
-- `slovniky/verejna-sprava-sk.json`: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- `slovniky/verejna-sprava-sk.json`: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
   Predbežne; po rozhodnutí MIRRI sa môže zmeniť (napríklad na CC0). Rozhoduje blok
   `licence` v súbore.
+- `slovniky/inclusion-europe-sk.json`: preklad slovníka Inclusion Europe (© Inclusion Europe,
+  citovaný zdroj), [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+  Každé heslo nesie pôvodný anglický výraz a adresu.
 - `slovniky/hurraki-sk.json`: odvodené dielo z Hurraki – Lexikon für Leichte Sprache
   ([CC BY-SA 3.0 DE](https://creativecommons.org/licenses/by-sa/3.0/de/)), preto ostáva
   pod [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Každé heslo nesie
   adresu a revíziu pôvodného článku.
 - Skripty v `scripts/`: MIT.
 
-Pozri [LICENSE](LICENSE).
+Pozri [LICENSE](LICENSE). Repozitár je výskumný projekt zverejnený na účel hodnotenia;
+prevzaté texty pochádzajú od orgánov verejnej správy a organizácií financovaných Európskou
+úniou a sú citované pri každom hesle. Žiadosti o stiahnutie obsahu: milan.regec@uniba.sk.
 
 ## Plán
 
-1. Overovací prototyp (teraz): základ z komisar.sk, prvá dávka Hurraki, nástroj.
+1. Overovací prototyp (teraz): základ z komisar.sk, prvá dávka Hurraki, slovník Inclusion Europe, nástroj.
 2. Po schválení MIRRI: MIRRI oficiálne osloví Úrad komisára, naklonuje repozitár
    a pozve ďalších odborníkov a organizácie ľudí s mentálnym znevýhodnením.
 3. Overovanie hesiel čitateľmi (`reader-checked`), ďalšie domény (sociálne dávky,
