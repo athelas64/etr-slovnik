@@ -12,6 +12,15 @@
       "lang": "sk",
       "licence": "CC BY-SA 3.0"
     },
+    "slovniky/inclusion-europe-sk.json": {
+      "sha256": "014501ef8fcc0e96fdf26821af9cfb3fdb5e3d1ccf7410368fd1676ab0269f96",
+      "bytes": 117154,
+      "entries": 101,
+      "version": "2026-09-30",
+      "tier": "global",
+      "lang": "sk",
+      "licence": "CC BY-NC-SA 4.0"
+    },
     "slovniky/verejna-sprava-sk.json": {
       "sha256": "31524734cd44233fcdf362291eff8aa00e79b44585598c3f652774cff1e0118c",
       "bytes": 32121,
@@ -22,5 +31,5 @@
       "licence": "CC BY-NC-SA 4.0"
     }
   },
-  "updated": "2026-09-30T02:16:22Z"
+  "updated": "2026-09-30T03:09:26Z"
 }
