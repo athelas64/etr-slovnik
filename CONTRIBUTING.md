@@ -56,9 +56,25 @@ Nástroj podľa hesla hľadá slovo v texte, preto na dvoch poliach záleží:
   „úrad“ nie je synonymum hesla „verejná správa“. Také položky spôsobia, že heslo sa
   ohlási pri texte, ktorý o ňom nie je.
 
+## Kontext: rozsah a vylúčenia
+
+Nástroj nájde slovo, nie jeho význam. Dve nepovinné polia pomáhajú:
+
+- `exclude` sú tvary, ktoré sa na heslo len podobajú, ale sú iným slovom: príslovka
+  „práve“ pri hesle „práva“. Nástroj ich v texte nehľadá. Vylúčenie v tomto slovníku je
+  **globálna zmena** pre všetky úrady; pre niektoré môže byť pôvodná zhoda správna
+  („v práve“ je tvar slova „právo“). Návrhy vylúčení prichádzajú od autorov ako issue
+  „Návrh vylúčenia“ a pred zlúčením ich treba posúdiť: niekedy stačí, že si autor tvar
+  vylúči len vo vlastnom slovníku, alebo že heslo dostane rozsah.
+- `scope` obmedzí heslo na úrad (jeho webová adresa bez www, napr. `minv.sk`) alebo tému
+  (`volby`). Také heslo nástroj ponúkne len textu s rovnakým rozsahom; heslo bez rozsahu
+  platí všade. To isté heslo môže mať všeobecné znenie a znenia pre konkrétne úrady;
+  `id` je potom rovnaké a líšia sa rozsahom.
+
 ## Čo sa kontroluje automaticky
 
-`scripts/validate.py` na každom pull requeste: JSON Schema, jedinečné `id`, dĺžka viet,
+`scripts/validate.py` na každom pull requeste: JSON Schema, jedinečné `id` (spolu s
+rozsahom), že `exclude` neobsahuje heslo ani jeho tvar, dĺžka viet,
 jedna veta na riadok, zakázané znaky, že strojovo preložené heslo nie je označené ako
 `reviewed` alebo `reader-checked`, že každý tvar v `forms` zdieľa začiatok slova s heslom
 (skratky patria do `same_words`) a že `same_words` neopakuje heslo ani tvar.

@@ -64,6 +64,17 @@
           "description": "Iné slová s rovnakým významom, ktoré čitateľ môže stretnúť (synonymá, skratky)."
         },
         "domain": { "type": "string", "description": "Oblasť: úrad, právo, peniaze, zdravie, sociálne služby, práca, bývanie, vzdelávanie, doprava, digitál, rodina, ostatné." },
+        "scope": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^[a-z0-9áäčďéíĺľňóôŕšťúýž]+([.-][a-z0-9áäčďéíĺľňóôŕšťúýž]+)*$" },
+          "minItems": 1,
+          "description": "Pre koho heslo platí: webová adresa úradu bez www (minv.sk) alebo krátke slovo pre tému (volby). Heslo s rozsahom nástroj ponúkne len textom s rovnakým rozsahom; heslo bez rozsahu platí všade."
+        },
+        "exclude": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "description": "Tvary slov, ktoré sa podobajú na heslo, ale sú iným slovom (napr. príslovka 'práve' pri hesle 'práva'). Nástroj ich v texte nehľadá."
+        },
         "note": { "type": "string", "description": "Poznámka pre autorov textov (nie pre čitateľa): kedy výraz použiť, čoho sa vyvarovať." },
         "source": {
           "type": "object",

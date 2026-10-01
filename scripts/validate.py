@@ -51,13 +51,19 @@ def form_matches_term(form: str, term: str) -> bool:
 
 def house_rules(data: dict, name: str) -> list[str]:
     errs: list[str] = []
-    ids: dict[str, str] = {}
+    ids: dict[tuple, str] = {}
     for e in data.get("entries", []):
         eid, term = e.get("id", "?"), e.get("term", "?")
-        where = f"{name}: {eid}"
-        if eid in ids:
-            errs.append(f"{where}: duplicate id (also used by '{ids[eid]}')")
-        ids[eid] = term
+        scope = tuple(sorted(e.get("scope") or []))
+        where = f"{name}: {eid}" + (f" (scope {', '.join(scope)})" if scope else "")
+        # the same term may have a general entry and entries scoped to particular bodies or topics
+        if (eid, scope) in ids:
+            errs.append(f"{where}: duplicate id (also used by '{ids[(eid, scope)]}')")
+        ids[(eid, scope)] = term
+        own = {slug(term)} | {slug(f) for f in e.get("forms") or []}
+        for x in e.get("exclude") or []:
+            if slug(x) in own:
+                errs.append(f"{where}: exclude '{x}' is the term or one of its forms; the entry could never match it")
         for f in e.get("forms") or []:
             if re.fullmatch(r"[A-ZÁÄČĎÉÍĹĽŇÓÔŔŠŤÚÝŽ]{2,6}", f):
                 errs.append(f"{where}: form '{f}' is an abbreviation; put it in same_words (matched exactly)")
